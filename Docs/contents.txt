@@ -1,8 +1,0 @@
-This is a description of all files loaded into Docs directory for each sprint.
-
-Sprint1:
-React Research
-GraphQL Research
-Color Scheme Mock-Ups
-Color & Design Theory
-
