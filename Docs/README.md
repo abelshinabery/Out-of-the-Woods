@@ -7,4 +7,6 @@ This is a description of all files uploaded into Docs directory for each sprint.
 <a href="Sprint1/OOTW_Cool_Tones.jpg">Cool Tones</a>: Color Scheme Mock-Ups<br>
 <a href="Sprint1/OOTW_Forest_Tones.jpg">Forest Tones</a>: Color Scheme Mock-Ups<br>
 **Mock-Ups are a Culmination of Research**: Color & Design Theory Research<br>
-**TestApp1.gif, TestApp2.gif**: App Rough Draft Design with UX Software<br>
+<a href="Sprint1/OOTW_Forest_Tones.jpg">Forest Tones</a>
+[TestGif1 (First UI draft)](Sprint1/TestGif1.gif): App Rough Draft Design with UX Software<br>
+[TestGif2 (Second draft playing around with color and UX)](Sprint1/TestGif2.gif): App Rough Draft Design with UX Software<br>
