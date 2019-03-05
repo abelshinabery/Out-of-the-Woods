@@ -1,0 +1,14 @@
+We had initially decided to do a Web Browser based on our personal 
+capabilities and experiences. However, the more we discussed the 
+functionality of the application and what we would like to accomplish, 
+the decision became clear to us that this was meant to be a mobile 
+application.
+
+For an example, some things that were considered:
+
+* If this service has geolocation - how does the location tracking 
+work if they're logged into their browser of their phone or on a 
+computer?
+* How would we deliver notifications to the user if the application 
+were to be checking in with them?
+ 
