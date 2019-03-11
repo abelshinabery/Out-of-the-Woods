@@ -1,4 +1,6 @@
 # foo-app readme
+
+
 ## What is React Native?
   __React Native is a Javascript framework used for building iOS and Android mobile apps.__
 
@@ -21,26 +23,22 @@ ReactJS is a JavaScript library for creating user-interface for large web applic
 
 React Native, on the other hand, is a framework consisting of native libraries for creating mobile applications. The libraries (also created by facebook) can be used to develop applications for all platforms because the React Native code compiles into native mobile app components.
 # Why React Native?
-The word “cross-platform” is key here; with react native, you write the codez once and then the same code is used for deployment on ze iOSs and Android Platforms… yippie!  
+React Native is an exciting framework that enables developers to create __robust mobile applications__ using some prior JavaScript knowledge. It offers __faster mobile development__, and more __efficient code sharing__ across __iOS, Android, and the Web__, without sacrificing the __end user's experience or application quality__.
 
-Performance: React Native offers faster mobile development and more efficient code sharing across iOS, Android and web w/o sacrificing the end users experience or application quality.
-The tradeoff is that it adds some complexity to the application setup process (our team can handle that because I think we all agree that we want to develop mobile applications for more than just one platform)
-Cool animations
 All about code reusability + having the best mobile UI experience possible
 ### What is Expo?
-Expo is a toolchain built around React Native to help you quickly start an app. It provides a set of tools that simplify the development and testing of React Native app and arms you with the components of users interface and services that are usually available in third-party native React Native components.
-Expo is a tool that allows you to write React Native apps without having to use a platform specific development environment i.e. Xcode  on Macs or Android Studio on Windows.
+[Expo] (https://docs.expo.io/versions/latest/) is a __toolchain__ built around __React Native__ to help you quickly start an app. It provides a set of tools that simplify the development and testing of React Native app as well as well as doesnt require having to use a __platform specific development environment__ i.e. Xcode  on Macs or Android Studio on Windows.
 Projects created with the Create React Native App tool are Expo projects.
 ### Why Expo?
 Expo makes it very easy to develop on your physical device and removes many of the initial roadblocks to getting started with React Native.
-You can read more about Expo and install the Expo mobile app at expo.io.
-Development Environment Setup + React Native (using Expo) on WSL (but should pretty much work the same on Mac and Linux)
+You can read more about Expo and install the Expo mobile app at https://docs.expo.io/versions/latest/
+#### Development Environment Setup + React Native (using Expo) on WSL (but should pretty much work the same on Mac and Linux)
 
-I followed this: https://facebook.github.io/react-native/docs/getting-started.html
+I followed this: [https://facebook.github.io/react-native/docs/getting-started.html] and [expo.io]
 Before proceeding I highly recommend to make sure everything was installed properly:
 ![A1](a1.png)
 
-`$ npm install -g expo-cli *``
+`$ npm install -g expo-cli`
 `$ expo init demo-project`
 
 ##### Chose tabs! ![A2](a2.png)
@@ -93,13 +91,7 @@ __How it feels when you open the node_modules folder → ___
 
 
 
-
-
-
-
-
-
-
-
-
-Heaviest object in the universe:
+#### Sources: 
+- [Expo documentation] (https://docs.expo.io/versions/latest/)
+- [React Native Cookbook - Second Edition by Dan Ward](https://www.oreilly.com/library/view/react-native-cookbook/9781788991926/32882bd3-85bb-4947-87aa-9f8fed6658c4.xhtml)
+- 
