@@ -18,6 +18,7 @@ This idea was inspired by the modern surge of online dating. From dating applica
 We are the Klingons, a group of undergraduate Computer Science students at Texas State University. In and throughout the semester we will use this repository to work on our project and software engineering principles as well as gain experience working in an agile environment.
 
 **Currently: Under construction, a.**
+[Demo](https://cs3398-s19-klingon-warriors.github.io/Out-of-the-Woods/)
 
 ### Status + Next Steps
 To see individual contributions and artifacts: [Click here](https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods/tree/shared/Docs)
