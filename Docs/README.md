@@ -7,6 +7,7 @@ Individual Contributions:
 **Sarah:** <br>
 <a href="Sprint1/React_JS_GraphQL_Research.pdf" target="_blank">React and GraphQL Research</a>: React Research<br>
 <a href="Sprint1/React_JS_GraphQL_Research.pdf" target="_blank">React and GraphQL Research</a>: GraphQL Research<br>
+[React Native Docs + Research + Skeleton] (https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods/tree/shared/App)
 
 **Serena:** <br>
 [Saftey Application Research](Sprint1/sprint1_safetyappresearch.pdf): This research is to be used as a kickoff point in coding in React Native. There are bare-bones applications and example code of components we've discussed using for our applications. <br> 
