@@ -2,9 +2,10 @@
 This is a description of all files uploaded into Docs directory for each sprint. 
 
 ## Sprint1
-Individual Contributions: 
-**Serena:**
-[Saftey Application Research](Sprint1/sprint1_safetyappresearch.pdf): This research is to be used as a kickoff point in coding in React Native. There are bare-bones applications and example code of components we've discussed using for our applications. 
+Individual Contributions:
+
+**Serena:** <br>
+[Saftey Application Research](Sprint1/sprint1_safetyappresearch.pdf): This research is to be used as a kickoff point in coding in React Native. There are bare-bones applications and example code of components we've discussed using for our applications. <br> 
 [Web vs Mobile Capabilities](Sprint1/WebVsMobile.txt): This is a brief summary of how our throught process evolved from Web application to Mobile application.
 
 <a href="Sprint1/React_JS_GraphQL_Research.pdf" target="_blank">React and GraphQL Research</a>: React Research<br>
