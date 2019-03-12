@@ -34,3 +34,7 @@ Next Steps: Determine user flow and code a page (TBD).
 Status: Still wrapping up Sprint 1 tasks: Aria/JS research document and user flow document
 Tabled HTML alt text task (not in board) since HTML has to be redone/ported to React in Sprint 2. <br>
 Next steps: Finish Sprint 1 tasks. Write JavaScript accessibility guidelines so we can code in needed functionality as we go, rather than after the fact. Get Expo emulator running on phone.
+
+**Abel:** 
+Status: Working on turning our HTML/CSS demo into a React Native Application
+Next Steps: Need to study up on file structure and components to make sure the team is on the same page about where to put components they make and how to access them.
