@@ -17,5 +17,11 @@ This idea was inspired by the modern surge of online dating. From dating applica
 # Who we are:
 We are the Klingons, a group of undergraduate Computer Science students at Texas State University. In and throughout the semester we will use this repository to work on our project and software engineering principles as well as gain experience working in an agile environment.
 
-
 **Currently: Under construction, a.**
+
+### Status + Next Steps
+To see individual contributions and artifacts: [Click here](Out-of-the-Woods/Docs/)
+**Serena: **
+Status: Preparing to start coding in React Native
+Next Steps: Set up individual development branch, finish determining user flow and parsing out individual work pages.
+
