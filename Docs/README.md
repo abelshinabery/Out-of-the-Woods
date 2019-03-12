@@ -4,6 +4,10 @@ This is a description of all files uploaded into Docs directory for each sprint.
 ## Sprint1
 Individual Contributions:
 
+**Sarah:** <br>
+<a href="Sprint1/React_JS_GraphQL_Research.pdf" target="_blank">React and GraphQL Research</a>: React Research<br>
+<a href="Sprint1/React_JS_GraphQL_Research.pdf" target="_blank">React and GraphQL Research</a>: GraphQL Research<br>
+
 **Serena:** <br>
 [Saftey Application Research](Sprint1/sprint1_safetyappresearch.pdf): This research is to be used as a kickoff point in coding in React Native. There are bare-bones applications and example code of components we've discussed using for our applications. <br> 
 [Web vs Mobile Capabilities](Sprint1/WebVsMobile.txt): This is a brief summary of how our throught process evolved from Web application to Mobile application.
@@ -14,8 +18,6 @@ Individual Contributions:
 <a href="https://cs3398-s19-klingon-warriors.github.io/Out-of-the-Woods/">Implement color scheme and logo into HTML/CSS</a>: A small web demo that allows you to press the SOS button that would send your location to contacts. An adaptation of the second design draft, but with a new logo decided by the team. **Make sure when opening that you go into developer tools and select the mobile development option. The site is still funtional at desktop size, but it will not look correct. This is because it is a demo of a React Native application, which is purely on mobile phones.**<br>
 
 
-<a href="Sprint1/React_JS_GraphQL_Research.pdf" target="_blank">React and GraphQL Research</a>: React Research<br>
-<a href="Sprint1/React_JS_GraphQL_Research.pdf" target="_blank">React and GraphQL Research</a>: GraphQL Research<br>
 <a href="Sprint1/OOTW_Cool_Tones.jpg" target="_blank">Cool Tones</a>: Color Scheme Mock-Ups<br>
 <a href="Sprint1/OOTW_Forest_Tones.jpg" target="_blank">Forest Tones</a>: Color Scheme Mock-Ups<br>
 **Mock-Ups are a Culmination of Research**: Color & Design Theory Research<br>
