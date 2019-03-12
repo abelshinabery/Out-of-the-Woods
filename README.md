@@ -20,8 +20,9 @@ We are the Klingons, a group of undergraduate Computer Science students at Texas
 **Currently: Under construction, a.**
 
 ### Status + Next Steps
-To see individual contributions and artifacts: [Click here](Out-of-the-Woods/Docs/)
-**Serena: **
+To see individual contributions and artifacts: [Click here](https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods/tree/shared/Docs)
+
+**Serena:**
 Status: Preparing to start coding in React Native
 Next Steps: Set up individual development branch, finish determining user flow and parsing out individual work pages.
 
