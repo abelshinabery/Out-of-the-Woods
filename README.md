@@ -8,7 +8,7 @@
 
 _Goal:_ Creating a personal safety mobile application to alleviate stress and mitigate harm as a result of precarious or unpredictable situations.
 
-<img src="Docs/Sprint1/Group 4.png" height="200px">
+<img src="Docs/Sprint1/Group 4.png" height="500px">
 
 ## How it will work:
 >  The application will send a notification to an emergency contact if the user : doesn’t arrive at their designated destination, thinks they are in danger, or just wants a friend to know their location. A user can preemptively set up an alert before entering an unsafe situation, or do it in the moment. Our goal is for users to achieve independence without sacrificing their own safety. Out of the Woods is gender inclusive and meant to improve quality of life for travelers, hikers, blind-daters, and families.
