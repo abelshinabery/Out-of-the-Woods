@@ -26,3 +26,6 @@ To see individual contributions and artifacts: [Click here](https://github.com/c
 Status: Preparing to start coding in React Native <br>
 Next Steps: Set up individual development branch, finish determining user flow and parsing out individual work pages.
 
+**Talon:**
+Status: Setting up React Native and my developement branch.
+Next Steps: Determine user flow and code a page (TBD).
