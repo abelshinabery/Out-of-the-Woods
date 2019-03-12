@@ -26,15 +26,19 @@ To see individual contributions and artifacts: [Click here](https://github.com/c
 Status: Preparing to start coding in React Native <br>
 Next Steps: Set up individual development branch, finish determining user flow and parsing out individual work pages.
 
-**Talon:**
-Status: Setting up React Native and my developement branch.
+**Talon:** <br>
+Status: Setting up React Native and my developement branch.<br>
 Next Steps: Determine user flow and code a page (TBD).
 
-**Rachel:**
+**Rachel:** <br>
 Status: Still wrapping up Sprint 1 tasks: Aria/JS research document and user flow document
 Tabled HTML alt text task (not in board) since HTML has to be redone/ported to React in Sprint 2. <br>
 Next steps: Finish Sprint 1 tasks. Write JavaScript accessibility guidelines so we can code in needed functionality as we go, rather than after the fact. Get Expo emulator running on phone.
 
-**Abel:** 
+**Abel:** <br>
 Status: Working on turning our HTML/CSS demo into a React Native Application <br>
 Next Steps: Need to study up on file structure and components to make sure the team is on the same page about where to put components they make and how to access them.
+
+**Sarah:**<br>
+Status: Doing things <br>
+Next Step: Doing more things
