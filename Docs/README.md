@@ -19,9 +19,9 @@ Individual Contributions:
 <a href="Sprint1/OOTW_Cool_Tones.jpg" target="_blank">Cool Tones</a>: Color Scheme Mock-Ups<br>
 <a href="Sprint1/OOTW_Forest_Tones.jpg" target="_blank">Forest Tones</a>: Color Scheme Mock-Ups<br>
 **Mock-Ups are a Culmination of Research**: Color & Design Theory Research<br>
-<a href="Sprint1/WAI mobile accessibility: Sprint 1 doc pdf.pdf" target="_blank">WAI Mobile Accessibility Notes</a>: General Notes and research on WAI accessibility standards and mobile mapping<br>
-<a href="Sprint1/Color Contrast Check test notes 3.3 pdf.pdf" target="_blank">Contrast Test Notes, Cool Tones</a>: Notes from color contrast tests with cool tones palette<br>
-<a href="Sprint1/Contrast Tests Screenshots.zip" target="_blank">Contrast Test Screenshots, Cool Tones</a>: Screenshots from WebAIM test page of each cool tones contrast test<br>
+<a href="Sprint1/WAI mobile accessibility" target="_blank">WAI Mobile Accessibility Notes</a>: General Notes and research on WAI accessibility standards and mobile mapping. WAI standards are language and platform independent. These notes contain the accessibility features most pertinent to our app that we should code in and keep tracking as we go.<br>
+<a href="Sprint1/Color Contrast Check test notes 3.3 pdf.pdf" target="_blank">Contrast Test Notes, Cool Tones</a>: Notes from color contrast tests with cool tones palette. Checked variety of background and foreground colors from our Cool Tones palette (and a few other standard colors) with WAI online contrast checking tool. This document has the results from those tests. We will need to avoid color pairings with an insufficient contrast ratio in our future designs.<br>
+<a href="Sprint1/Contrast Tests Screenshots.zip" target="_blank">Contrast Test Screenshots, Cool Tones</a>: Screenshots from WebAIM test page of each cool tones contrast test. This contains labeled screenshots from each color test. The screenshots make it much easier to see which colors were being tested against each other, how they looked, and how good/bad the test results were.<br>
 <a href="Sprint1/sprint1_safetyappresearch.pdf" target="_blank">Safety App Research<br>
 <a href="Sprint1/WebVsMobile.txt" target="_blank">WebVsMobile.txt<br>
   
