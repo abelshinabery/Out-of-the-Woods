@@ -28,7 +28,3 @@ Individual Contributions:
 <a href="Sprint1/Color Contrast Check test notes 3.3 pdf.pdf" target="_blank">Contrast Test Notes, Cool Tones</a>: Notes from color contrast tests with cool tones palette. Checked variety of background and foreground colors from our Cool Tones palette (and a few other standard colors) with WAI online contrast checking tool. This document has the results from those tests. We will need to avoid color pairings with an insufficient contrast ratio in our future designs.<br>
 <a href="Sprint1/Contrast Tests Screenshots.zip" target="_blank">Contrast Test Screenshots, Cool Tones</a>: Screenshots from WebAIM test page of each cool tones contrast test. This contains labeled screenshots from each color test. The screenshots make it much easier to see which colors were being tested against each other, how they looked, and how good/bad the test results were.<br>
 
-
-<a href="Sprint1/sprint1_safetyappresearch.pdf" target="_blank">Safety App Research<br>
-<a href="Sprint1/WebVsMobile.txt" target="_blank">WebVsMobile.txt<br>
-  
