@@ -1,5 +1,5 @@
 # Out of the Woods
-[Interactive XD Mobile Demo](https://xd.adobe.com/view/80b31619-94ac-4041-7646-a40ef9188a47-f682/?fullscreen)
+[Interactive XD Mobile Demo](https://xd.adobe.com/view/80b31619-94ac-4041-7646-a40ef9188a47-f682/?fullscreen)<br>
 [Less Interactive Web Demo](https://cs3398-s19-klingon-warriors.github.io/Out-of-the-Woods/)
 ## Vision Statement
 
