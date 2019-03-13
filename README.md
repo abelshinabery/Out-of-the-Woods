@@ -1,6 +1,6 @@
 # Out of the Woods
-[Interactive Demo](https://xd.adobe.com/view/80b31619-94ac-4041-7646-a40ef9188a47-f682/?fullscreen)
-
+[Interactive XD Mobile Demo](https://xd.adobe.com/view/80b31619-94ac-4041-7646-a40ef9188a47-f682/?fullscreen)
+[Less Interactive Web Demo](https://cs3398-s19-klingon-warriors.github.io/Out-of-the-Woods/)
 ## Vision Statement
 
  _Out of the Woods_ , a personal safety mobile application that can help people avoid risky situations whilst being independent.
@@ -20,8 +20,9 @@ This idea was inspired by the modern surge of online dating. From dating applica
 # Who we are:
 We are the Klingons, a group of undergraduate Computer Science students at Texas State University. In and throughout the semester we will use this repository to work on our project and software engineering principles as well as gain experience working in an agile environment.
 
-**Currently: Under construction, a.**
-
+**Currently: Under Construction**<br>
+Status: The demo code is compiling and running in browsers and phones. <br>
+Next step for the group is to begin programming and designing application in React Native
 [Demo](https://cs3398-s19-klingon-warriors.github.io/Out-of-the-Woods/)
 
 ### Status + Next Steps
