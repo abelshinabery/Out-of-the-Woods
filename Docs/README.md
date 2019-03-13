@@ -18,7 +18,7 @@ Individual Contributions:
 <a href="Sprint1/TestGif2.gif" target="_blank">App Rough Draft Design with UX Software</a>: Second text with another possible color scheme and UI that incorporated some suggestions from the team. <br>
 <a href="https://cs3398-s19-klingon-warriors.github.io/Out-of-the-Woods/">Implement color scheme and logo into HTML/CSS</a>: A small web demo that allows you to press the SOS button that would send your location to contacts. An adaptation of the second design draft, but with a new logo decided by the team. **Make sure when opening that you go into developer tools and select the mobile development option. The site is still funtional at desktop size, but it will not look correct. This is because it is a demo of a React Native application, which is purely on mobile phones.**<br>
 
-
+**Talon:** <br>
 <a href="Sprint1/OOTW_Cool_Tones.jpg" target="_blank">Cool Tones</a>: Color Scheme Mock-Ups<br>
 <a href="Sprint1/OOTW_Forest_Tones.jpg" target="_blank">Forest Tones</a>: Color Scheme Mock-Ups<br>
 **Mock-Ups are a Culmination of Research**: Color & Design Theory Research<br>
