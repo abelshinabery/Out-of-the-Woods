@@ -46,5 +46,6 @@ Status: Working on turning our HTML/CSS demo into a React Native Application <br
 Next Steps: Need to study up on file structure and components to make sure the team is on the same page about where to put components they make and how to access them.
 
 **Sarah:**<br>
-Status: Doing things <br>
-Next Step: Doing more things
+Status: Created and pushed a skeleton-file structure of components, screens and navigation for team to pull (on shared branch as well as set branch to upstream for team to pull from and work on dev branches) [App](https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods/tree/master/App). Added README with how to set up development environment with __Expo__ and __React Native__.
+<br>
+Next Step: Following up with team to make sure everyone has development environment configured on personal machines and pulled app/ skeleton file structure to own dev branch and is able to run on personal machine and iphone/android. Next next step is determine how best to include css with react-native + javascript (probably reading up on javascript for this). 
