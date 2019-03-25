@@ -1,12 +1,16 @@
 import React from 'react';
 import {
   Image,
-  Platform,
   ScrollView,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
+  AppRegistry,
+  Platform,
+  Alert,
+  TouchableNativeFeedback,
+  TouchableWithoutFeedback
 } from 'react-native';
 import { WebBrowser } from 'expo';
 
@@ -25,8 +29,8 @@ export default class HomeScreen extends React.Component {
             <Image
               source={
                 __DEV__
-                  ? require('../assets/images/robot-dev.png')
-                  : require('../assets/images/robot-prod.png')
+                  ? require('../assets/images/translogo.gif')
+                  : require('../assets/images/translogo.gif')
               }
               style={styles.welcomeImage}
             />
@@ -35,7 +39,7 @@ export default class HomeScreen extends React.Component {
           <View style={styles.getStartedContainer}>
             {this._maybeRenderDevelopmentModeWarning()}
 
-            <Text style={styles.getStartedText}>Get started by opening</Text>
+            <Text style={styles.myText}>My Text</Text>
 
             <View style={[styles.codeHighlightContainer, styles.homeScreenFilename]}>
               <MonoText style={styles.codeHighlightText}>screens/HomeScreen.js</MonoText>
@@ -59,7 +63,7 @@ export default class HomeScreen extends React.Component {
           <View style={[styles.codeHighlightContainer, styles.navigationFilename]}>
             <MonoText style={styles.codeHighlightText}>navigation/MainTabNavigator.js</MonoText>
           </View>
-        </View>
+         </View>
       </View>
     );
   }
@@ -81,7 +85,11 @@ export default class HomeScreen extends React.Component {
     } else {
       return (
         <Text style={styles.developmentModeText}>
-          You are not in development mode, your app will run at full speed.
+
+        Take control of your personal Saftey.
+        <Text onPress={this._handleLearnMorePress} style={styles.helpLinkText}>
+          Learn more
+        </Text>
         </Text>
       );
     }
@@ -100,9 +108,23 @@ export default class HomeScreen extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-  },
+  paddingTop: 20,
+  // alignItems: 'center'
+},
+button: {
+  marginBottom: 30,
+  width: 260,
+  alignItems: 'center',
+  backgroundColor: '#2196F3'
+
+
+},
+buttonText: {
+  padding: 20,
+  fontWeight: '700',
+  color: 'white',
+
+},
   developmentModeText: {
     marginBottom: 20,
     color: 'rgba(0,0,0,0.4)',
@@ -114,23 +136,23 @@ const styles = StyleSheet.create({
     paddingTop: 30,
   },
   welcomeContainer: {
-    alignItems: 'center',
+    alignItems: 'marginLeft',
     marginTop: 10,
     marginBottom: 20,
   },
   welcomeImage: {
-    width: 100,
-    height: 80,
+    width: 120,
+    height: 100,
     resizeMode: 'contain',
-    marginTop: 3,
-    marginLeft: -10,
+    marginTop: -10,
+    marginLeft: 0,
   },
   getStartedContainer: {
     alignItems: 'center',
     marginHorizontal: 50,
   },
   homeScreenFilename: {
-    marginVertical: 7,
+    marginVertical: 0,
   },
   codeHighlightText: {
     color: 'rgba(96,100,109, 0.8)',
@@ -140,31 +162,33 @@ const styles = StyleSheet.create({
     borderRadius: 3,
     paddingHorizontal: 4,
   },
-  getStartedText: {
+  myText: {
     fontSize: 17,
     color: 'rgba(96,100,109, 1)',
     lineHeight: 24,
-    textAlign: 'center',
+    textAlign: 'left',
+    paddingBottom: 50,
+    paddingRight: 50,
   },
   tabBarInfoContainer: {
-    position: 'absolute',
-    bottom: 0,
-    left: 0,
-    right: 0,
-    ...Platform.select({
-      ios: {
-        shadowColor: 'black',
-        shadowOffset: { height: -3 },
-        shadowOpacity: 0.1,
-        shadowRadius: 3,
-      },
-      android: {
-        elevation: 20,
-      },
-    }),
-    alignItems: 'center',
-    backgroundColor: '#fbfbfb',
-    paddingVertical: 20,
+    // position: 'relative',
+    // bottom: 30,
+    // left: 0,
+    // right: 0,
+    // ...Platform.select({
+    //   ios: {
+    //     shadowColor: 'black',
+    //     shadowOffset: { height: -3 },
+    //     shadowOpacity: 0.1,
+    //     shadowRadius: 3,
+    //   },
+    //   android: {
+    //     elevation: 20,
+    //   },
+    // }),
+    // alignItems: 'center',
+    // backgroundColor: '#2d461f',
+    // paddingVertical: 20,
   },
   tabBarInfoText: {
     fontSize: 17,
@@ -185,4 +209,5 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#2e78b7',
   },
+
 });
