@@ -1,6 +1,6 @@
 # Out of the Woods
-[Interactive Demo](https://xd.adobe.com/view/80b31619-94ac-4041-7646-a40ef9188a47-f682/?fullscreen)
-
+[Interactive XD Mobile Demo](https://xd.adobe.com/view/80b31619-94ac-4041-7646-a40ef9188a47-f682/?fullscreen)<br>
+[Less Interactive Web Demo](https://cs3398-s19-klingon-warriors.github.io/Out-of-the-Woods/)
 ## Vision Statement
 
  _Out of the Woods_ , a personal safety mobile application that can help people avoid risky situations whilst being independent.
@@ -20,8 +20,9 @@ This idea was inspired by the modern surge of online dating. From dating applica
 # Who we are:
 We are the Klingons, a group of undergraduate Computer Science students at Texas State University. In and throughout the semester we will use this repository to work on our project and software engineering principles as well as gain experience working in an agile environment.
 
-**Currently: Under construction, a.**
-
+**Currently: Under Construction**<br>
+Status: The demo code is compiling and running in browsers and phones. <br>
+Next step for the group is to begin programming and designing application in React Native
 [Demo](https://cs3398-s19-klingon-warriors.github.io/Out-of-the-Woods/)
 
 ### Status + Next Steps
@@ -32,18 +33,18 @@ Status: Preparing to start coding in React Native <br>
 Next Steps: Set up individual development branch, finish determining user flow and parsing out individual work pages.
 
 **Talon:** <br>
-Status: Setting up React Native and my developement branch.<br>
+Status: Setting up React Native and my development branch.<br>
 Next Steps: Determine user flow and code a page (TBD).
 
 **Rachel:** <br>
-Status: Still wrapping up Sprint 1 tasks: Aria/JS research document and user flow document
-Tabled HTML alt text task (not in board) since HTML has to be redone/ported to React in Sprint 2. <br>
-Next steps: Finish Sprint 1 tasks. Write JavaScript accessibility guidelines so we can code in needed functionality as we go, rather than after the fact. Get Expo emulator running on phone.
+Status: Completed Sprint 1 tasks: accessibility research docs, contrast tests, and user experiences. Getting ready to write code with React Native. <br>
+Next steps: Write JavaScript accessibility checklists so we can code in needed functionality as we go, rather than after the fact. Get Expo emulator running on phone.
 
 **Abel:** <br>
 Status: Working on turning our HTML/CSS demo into a React Native Application <br>
 Next Steps: Need to study up on file structure and components to make sure the team is on the same page about where to put components they make and how to access them.
 
 **Sarah:**<br>
-Status: Doing things <br>
-Next Step: Doing more things
+Status: Created and pushed a skeleton-file structure of components, screens and navigation for team to pull (on shared branch as well as set branch to upstream for team to pull from and work on dev branches) [App](https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods/tree/master/App). Added README with how to set up development environment with __Expo__ and __React Native__.
+<br>
+Next Step: Following up with team to make sure everyone has development environment configured on personal machines and pulled app/ skeleton file structure to own dev branch and is able to run on personal machine and iphone/android. Next next step is determine how best to include css with react-native + javascript (probably reading up on javascript for this). 
