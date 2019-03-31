@@ -1,30 +1,11 @@
-
-# multiple commits into one
-git reset --soft "HEAD~n" # n - number of commits to uncommit
-git commit --amend
-
-##############
-# .gitignore #
-##############
-Each file in separate line.
-
-git add . && git reset src/test/resources/
-
-### Getting & Creating Projects
-
 | Command | Description |
 | ------- | ----------- |
-| `git init` | Initialize a local Git repository |
-| `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
-
-### Basic Snapshotting
-
-| Command | Description |
-| ------- | ----------- |
-| `git status` | Check status |
+| `git status` | Check status, example: On branch sarah-dev
+Your branch is up to date with 'origin/shared'. nothing to commit, working tree clean |
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
-| `git commit -m "[commit message]"` | Commit changes |
+| `git commit -m "[changed font, added logo, ect ]"` | Commit changes |
+
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
 ### Branching & Merging
@@ -33,16 +14,16 @@ git add . && git reset src/test/resources/
 | ------- | ----------- |
 | `git branch` | List branches (the asterisk denotes the current branch) |
 | `git branch -a` | List all branches (local and remote) |
-| `git branch [branch name]` | Create a new branch |
-| `git branch -d [branch name]` | Delete a branch |
-| `git push origin --delete [branchName]` | Delete a remote branch |
-| `git checkout -b [branch name]` | Create a new branch and switch to it |
-| `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
-| `git checkout [branch name]` | Switch to a branch |
+| `git branch [sarah-dev]` | Create a new branch |
+| `git branch -d [sarah-temp]` | Delete a branch |
+| `git push origin --delete [sarah-dev]` | Delete a remote branch |
+| `git checkout -b [experimental-sarah]` | Create a new branch and switch to it |
+| `git checkout -b [shared] origin/[shared]` | Clone a remote branch and switch to it |
+| `git checkout [master]` | Switch to a branch |
 | `git checkout -` | Switch to the branch last checked out |
-| `git checkout -- [file-name.txt]` | Discard changes to a file |
-| `git merge [branch name]` | Merge a branch into the active branch |
-| `git merge [source branch] [target branch]` | Merge a branch into a target branch |
+| `git checkout -- [HomePage.js]` | Discard changes to a file |
+| `git merge [shared]` | Merge a branch into the active branch |
+| `git merge [sarah-dev] [shared]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 
@@ -70,39 +51,12 @@ git add . && git reset src/test/resources/
 
 
 # renames any branch
-$ git rename-branch new-name old-name
+| Command | Description |
+| ------- | ----------- |
+| `git rename-branch new-name old-name` | If you want to rename a branch to a better name |
 
-# renames current branch
-$ git rename-branch new-name
 
-# Show information about the repo:
-
-$ git info
-
-  ## Remote URLs:
-
-  origin              git@github.com:sampleAuthor/git-extras.git (fetch)
-  origin              git@github.com:sampleAuthor/git-extras.git (push)
-
-  ## Remote Branches:
-
-  origin/HEAD -> origin/master
-  origin/myBranch
-
-  ## Local Branches:
-
-  myBranch
-  * master
-
-  ## Most Recent Commit:
-
-  commit e3952df2c172c6f3eb533d8d0b1a6c77250769a7
-  Author: Sample Author <sampleAuthor@gmail.com>
-
-  Added git-info command.
-
-  Type 'git log' for more commits, or 'git show <commit id>' for full commit details.
-
+| `git rename-branch new-name` | renames current branch|
   ## Configuration (.git/config):
 
   color.diff=auto
@@ -121,9 +75,9 @@ $ git info
   branch.master.merge=refs/heads/master
 
 
-### Track upstream branch 
+### Track upstream branch
 
-git branch -u origin/mybranch
+git branch -u origin/shared
 
 ### List all branches and their upstreams as well as last commit on branch
 git branch -vv
@@ -145,3 +99,15 @@ git rm --cached <file_path>
 git rm --cached -r <directory_path>
 ### Before deleting untracked files/directory, do a dry run to get the list of these files/directories
 git clean -n
+
+
+# multiple commits into one
+git reset --soft "HEAD~n" # n - number of commits to uncommit
+git commit --amend
+
+##############
+# .gitignore #
+##############
+Each file in separate line.
+
+git add . && git reset src/test/resources/
