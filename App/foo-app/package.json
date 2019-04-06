@@ -12,14 +12,24 @@
   },
   "dependencies": {
     "@expo/samples": "2.1.1",
+    "acorn": "^6.1.1",
+    "braces": "^2.3.2",
     "expo": "^32.0.0",
-    "react": "16.5.0",
+    "expo-google-sign-in": "^4.0.0",
+    "install-peers": "^1.0.3",
+    "js-yaml": "^3.13.1",
+    "kleur": "^3.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
-    "react-navigation": "^3.0.9"
+    "react-navigation": "^3.0.9",
+    "react-peer": "^0.2.6"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0",
-    "jest-expo": "^32.0.0"
+    "jest-expo": "^32.0.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   },
   "private": true
 }
