@@ -1,7 +1,6 @@
 # Lists pulled from various public gitignores
 # Add to or delete from as needed!
 
-# Currently NOT ignoring node_modules, but we may end up wanting to do this
 
 # Expo
 .expo
@@ -14,7 +13,7 @@ __generated__
 .LSOverride
 
 # Node
-node_modules # think about this one: may want to include for tracking
+# node_modules # think about this one: may want to include for tracking
 # npm-debug.log # repeat of other
 # yarn-error.log # repeat of other
 
