@@ -34,5 +34,35 @@ export default StyleSheet.create({
     alignItems:'center',
     justifyContent:'center',
     height:50,
-    backgroundColor: '#ffae',}
+    backgroundColor: '#ffae',
+  },
+  settingsContainer:{
+    flex: 1,
+    backgroundColor: "#D8EFE7"
+  },
+  settingsList:{
+    flex: 1
+  },
+  settingsListItem:{
+    backgroundColor: "white",
+    marginBottom: 20,
+    padding: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.5,
+    shadowRadius: 4,  
+    elevation: 5,
+  },
+  settingsListItemTitle:{
+    marginLeft: 10,
+    fontSize: 20
+  },
+  settingsListItemAttribute:{
+    marginTop: 20,
+    marginLeft: 50,
+    fontSize: 16
+  },
+  settingsListSeparator:{
+      
+  }
 });
