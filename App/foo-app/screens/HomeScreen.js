@@ -15,7 +15,6 @@ import {
 import { WebBrowser } from 'expo';
 
 import { MonoText } from '../components/StyledText';
-import BigButton from '../components/BigButton';
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
@@ -36,8 +35,6 @@ export default class HomeScreen extends React.Component {
               style={styles.welcomeImage}
             />
           </View>
-            
-          <BigButton />
 
           <View style={styles.getStartedContainer}>
             {this._maybeRenderDevelopmentModeWarning()}
