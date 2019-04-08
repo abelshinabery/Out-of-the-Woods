@@ -10,6 +10,8 @@ import {
   AppRegistry, // For button, not sure if necessary
 } from 'react-native';
 
+import BigButton from '../components/BigButton';
+
 import { WebBrowser } from 'expo';
 
 import { MonoText } from '../components/StyledText';
@@ -38,6 +40,7 @@ class SosButton extends React.Component {
           </Text>
         </View>
       </View>
+        
     );
   }
 } // end SosButton class
@@ -50,7 +53,10 @@ export default class HomeScreen extends React.Component {
   render(){
     return(
       // Call SosButton class to display
-      <SosButton/>
+        <View style={{ flex:1 }}>
+        <SosButton/>
+        <BigButton />
+        </View>
     );
   }
 
