@@ -22,6 +22,7 @@ Individual Contributions:
 <a href="Sprint1/OOTW_Cool_Tones.jpg" target="_blank">Cool Tones</a>: Color Scheme Mock-Up created for the Out of the Woods App to be less active to the eyes. Benefit: Blues tend to ease the mind. Drawback: Blue light is harmful to the eye.<br>
 <a href="Sprint1/OOTW_Forest_Tones.jpg" target="_blank">Forest Tones</a>: Color Scheme Mock-Up created to be more vibrant and active to the eyes. Benefit: This color palette is representative of strength. Drawback: Not enough contrast between colors for accessibility.
 **Mock-Ups are a Culmination of Research**: Color & Design Theory Research<br>
+<a href="Sprint2/Registration_Screen.png" target="_blank">Registration Screen</a>: Updated Registration Screen to replicate the color scheme and user flow represented in our mockups. Slight adjustments still need to be made taking into consideration the Color Contrast Checks performed by Rachel.<br>
 
 **Rachel:** <br>
 <a href="Sprint1/WAI mobile accessibility.pdf" target="_blank">WAI Mobile Accessibility Notes</a>: General Notes and research on WAI accessibility standards and mobile mapping. WAI standards are language and platform independent. These notes contain the accessibility features most pertinent to our app that we should code in and keep tracking as we go.<br>
