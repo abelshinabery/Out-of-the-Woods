@@ -37,30 +37,39 @@ class RegistrationScreen extends Component {
 
   render() {
     return (
-      <KeyboardAvoidingView
-      style={styles.container}
-      behavior="padding"
-      >
-      <Animated.Image source={logo} style={[styles.logo, { height: this.imageHeight }]} />
-      <TextInput
-      placeholder="Email"
-      style={styles.input}
-      />
-      <TextInput
-      placeholder="Username"
-      style={styles.input}
-      />
-      <TextInput
-      placeholder="Password"
-      style={styles.input}
-      />
-      <TextInput
-      placeholder="Confirm Password"
-      style={styles.input}
-      />
-      </KeyboardAvoidingView>
+        <View style={styles.settingsContainer}>
+            <View style={{flex: 3}}>
+            
+                <KeyboardAvoidingView
+                    style={styles.settingsContainer}
+                    behavior="padding"
+                >
+                    <Animated.Image source={logo} style={[styles.animatedLogo, { height: this.imageHeight }]} />
+                    <TextInput
+                        placeholder="     Email"
+                        style={styles.input}
+                        placeholderTextColor="#3a3a3a"
+                    />
+                    <TextInput
+                        placeholder="     Username"
+                        style={styles.input}
+                        placeholderTextColor="#3a3a3a"
+                    />
+                    <TextInput
+                        placeholder="     Password"
+                        style={styles.input}
+                        placeholderTextColor="#3a3a3a"
+                    />
+                    <TextInput
+                        placeholder="     Confirm Password"
+                        style={styles.input}
+                        placeholderTextColor="#3a3a3a"
+                    />
+                </KeyboardAvoidingView>
+            </View>
+        </View>
     );
   }
-};
+}
 
 export default RegistrationScreen;
