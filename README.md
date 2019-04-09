@@ -45,6 +45,11 @@ Status: Working on adding functionality to the SOS button on the homepage.<br>
 Next Steps: Planning on building functions to send location info to contacts.
 
 **Sarah:**<br>
-Status: Doing things <br>
-Next Step: Doing more things
+__Sprint 2__
+Status: Confirmed that the entire team is able to develop and run OOTW on their personal machines. Got Expo(the react native toolkit) running in visual studio on Windows 10 and made alot of readme docs for the team to follow on how to get set up with react native and expo. Added logo to homepage and implemented registration page that plays nicely with the keyboard when you input text.
 
+Next Steps: ADd simple react-native-timer-countdown component and implement the functionallity to set, disable and store timer features. 
+__Sprint 1__
+Status: Created and pushed a skeleton-file structure of components, screens and navigation for team to pull (on shared branch as well as set branch to upstream for team to pull from and work on dev branches) [App](https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods/tree/master/App). Added README with how to set up development environment with __Expo__ and __React Native__.
+<br>
+Next Step: Following up with team to make sure everyone has development environment configured on personal machines and pulled app/ skeleton file structure to own dev branch and is able to run on personal machine and iphone/android. Next next step is determine how best to include css with react-native + javascript (probably reading up on javascript for this). 
