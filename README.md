@@ -40,8 +40,8 @@ Status: 6+ hours of troubleshooting but still cannot get foo-app working in Expo
 Next steps: Continue trying to fix Expo access, or find alternative options to display app (maybe an IDE/Simulator). Once able to see the app, implement accessibility suggestions for BigButton and test. 
 
 **Abel:** <br>
-Status: Working on turning our HTML/CSS demo into a React Native Application <br>
-Next Steps: Need to study up on file structure and components to make sure the team is on the same page about where to put components they make and how to access them.
+Status: Working on adding functionality to the SOS button on the homepage.<br>
+Next Steps: Planning of building functions to send location info to contacts.
 
 **Sarah:**<br>
 Status: Doing things <br>
