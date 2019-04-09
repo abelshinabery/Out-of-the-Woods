@@ -4,9 +4,9 @@ Not changing code directly at this point because Rachel is unable to test change
 
 ## References
 In addition to earlier notes, look at the React Native accessibility guides (bare, but useful):
-<a href="https://facebook.github.io/react-native/docs/accessibility" target="_blank">React Native Accessibility Guide</a>:
-<a href="https://code.fb.com/ios/making-react-native-apps-accessible/" target="_blank">Additional Blog Post with Examples</a>:
-<a href="https://facebook.github.io/react-native/blog/2018/08/13/react-native-accessibility-updates" target="_blank">Notes on recent updates and iOS vs Android options</a>:
+<a href="https://facebook.github.io/react-native/docs/accessibility" target="_blank">React Native Accessibility Guide</a><br>
+<a href="https://code.fb.com/ios/making-react-native-apps-accessible/" target="_blank">Additional Blog Post with Examples</a><br>
+<a href="https://facebook.github.io/react-native/blog/2018/08/13/react-native-accessibility-updates" target="_blank">Notes on recent updates and iOS vs Android options</a><br>
 We want to try to only use accessibility options that work on **both iOS and Android**, as this is the goal for our app.
 
 
@@ -18,12 +18,14 @@ Note: When possible, use **accessibilityRole** and **accessibilityStates** inste
 
 Let’s try adding accessibility to the BigButton class. The most important is accessibilityRole=“button”. Will also try adding accessibilityLabel (for extra clarity) and accessibilityHint (more on this later).
 
-from current line 33:
-
+from current line 33:<br>
+```javascript
  <TouchableOpacity onPress={this.onPress} style={styles.circle} >
-
-try instead:
+```
+try instead:<br>
+```javascript
  <TouchableOpacity accessibilityRole=“button” accessibilityLabel=“SOS button” accessibilityHint=“Tap twice to send SOS message” onPress={this.onPress} style={styles.circle} >
+```
 
 However, once we add design to this, it may be better to use accessibilityRole=“imagebutton”, a built-in combo type (need to check that it works on mobile, as web have slightly more Roles enabled)
 
@@ -31,27 +33,34 @@ Note: Avoid changing accessibilityRole values over time or after user actions. G
 
 Let’s also try adding accessible={true} to View in the BigButton. This is a general option we'll want for the accessibility features to check automativally:
 
-from current line 32:
-
+from current line 32:<br>
+```javascript
 <View style={styles.sosContainer}>
+```
 
 try instead:
-
+```javascript
 <View accessible={true} style={styles.sosContainer}>
+```
 
 I think using accessibilityStates might also help up with our non-standard text comparisons, but need to test exactly where to put these.
 
-MAY try, for example, current line 9:
+MAY try, for example, current line 9:<br>
+```javascript
+
         this.state = {
             text: 'SOS'
         }
+```
 
 try instead:
-    
+```javascript
+
         this.state = {
             text: 'SOS'
         }
    	accessibilityStates = disabled
+```
 
 and accessibilityStates = selected on the presses.
 
