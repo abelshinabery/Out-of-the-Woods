@@ -3,17 +3,15 @@ import {
   Image,
   Platform,
   ScrollView,
-  Text,
-  TouchableOpacity,
+
   View,
   AppRegistry, // For button, not sure if necessary
 } from 'react-native';
 
 import BigButton from '../components/BigButton';
 
-import { WebBrowser } from 'expo';
 
-import { MonoText } from '../components/StyledText';
+// import  '../components/StyledText';
 import logo from '../assets/images/translogo.gif';
 import styles, { IMAGE_HEIGHT, IMAGE_HEIGHT_SMALL } from '../styles';
 
@@ -35,17 +33,17 @@ export default class HomeScreen extends React.Component {
     );
   }
 
-  _handleLearnMorePress = () => {
-    WebBrowser.openBrowserAsync(
-      'https://docs.expo.io/versions/latest/guides/development-mode'
-    );
-  };
+  // _handleLearnMorePress = () => {
+  //   WebBrowser.openBrowserAsync(
+  //     'https://docs.expo.io/versions/latest/guides/development-mode'
+  //   );
+  // };
 
-  _handleHelpPress = () => {
-    WebBrowser.openBrowserAsync(
-      'https://docs.expo.io/versions/latest/guides/up-and-running.html#can-t-see-your-changes'
-    );
-  };
+  // _handleHelpPress = () => {
+  //   WebBrowser.openBrowserAsync(
+  //     'https://docs.expo.io/versions/latest/guides/up-and-running.html#can-t-see-your-changes'
+  //   );
+  // };
 } //end HomeScreen class
 
 //AppRegistry.registerComponent('App', () => HomeScreen)

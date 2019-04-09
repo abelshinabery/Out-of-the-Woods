@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import { View, Text, TouchableOpacity, Alert} from 'react-native';
-import styles, { IMAGE_HEIGHT, IMAGE_HEIGHT_SMALL } from '../styles';
+import styles, { sosText, IMAGE_HEIGHT, IMAGE_HEIGHT_SMALL } from '../styles';
+// import '../assets/fonts'; 
+// import { din } from './StyledText'; 
+<Text style={{ fontFamily: 'noto-serif' }}>SOS</Text>
 
 
 class BigButton extends Component {
     constructor () {
         super();
         this.state = {
+            sosText:'SoooS',
             text: 'SOS'
         }
     }

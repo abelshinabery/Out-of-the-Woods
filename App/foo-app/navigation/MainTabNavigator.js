@@ -6,10 +6,11 @@ import TabBarIcon from '../components/TabBarIcon';
 import HomeScreen from '../screens/HomeScreen';
 import RegistrationScreen from '../screens/RegistrationScreen';
 import SettingsScreen from '../screens/SettingsScreen';
-import NavButton from '../components/Button/NavButton';
+import TimerScreen from '../screens/TimerScreen'
 
 const HomeStack = createStackNavigator({
   Home: HomeScreen,
+  
 });
 
 HomeStack.navigationOptions = {
@@ -44,6 +45,10 @@ const SettingsStack = createStackNavigator({
   Settings: SettingsScreen,
 });
 
+const TimerStack = createStackNavigator ({
+  Timer:TimerScreen,
+});
+
 SettingsStack.navigationOptions = {
   tabBarLabel: 'Settings',
   tabBarIcon: ({ focused }) => (
@@ -58,4 +63,5 @@ export default createBottomTabNavigator({
   HomeStack,
   RegistrationStack,
   SettingsStack,
+  TimerStack
 });

@@ -1,7 +1,8 @@
 
 import { StyleSheet, Dimensions } from 'react-native';
 const window = Dimensions.get('window');
-
+// import 'assets/fonts/din-next-W01-Light.ttf' as din;
+import { din } from './components/StyledText.js';
 export const IMAGE_HEIGHT = window.width / 2;
 export const IMAGE_HEIGHT_SMALL = window.width /7;
 
@@ -71,11 +72,13 @@ export default StyleSheet.create({
       flex: 1, // makes the component flexible and it will be sized proportional to its flex value.
       justifyContent: 'center', //centers circle vertically
       alignItems: 'center', //centers circle horizontally
+    
     },
     sosText:{
         //alignSelf: 'center',
         alignItems: 'center',
-        fontFamily: 'San Francisco',
+        lineHeight: 32,
+        fontFamily: 'noto-serif' ,
         fontSize: 30,
     },
     circle: {
