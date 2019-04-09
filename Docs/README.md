@@ -18,7 +18,8 @@ Also created .gitignore for the project (in main repo level) to help us stay con
 
 **Serena:**<br>
 [Unblocking node](Sprint2/sprint2_unblockingnodes.docx): Made document recommending best course of action when demoing our project in class due to school's WIFI blocking nodes needed to run application.<br>
-[Initial Button](Sprint2/sprint2_initialbutton.png): Created the initial button with a basic count for number of times clicked. Then helped states code with this code and styles to match previous web demo.<br> 
+[Initial Button](Sprint2/sprint2_initialbutton.PNG): Created the initial button with a basic count for number of times clicked. Then helped states code with this code and styles to match previous web demo.<br> 
+Also: See code for Home Page: Helped adapt layout/style to match previous web demo.<br>
 
 **Sarah:**<br>
 Doing thangs. 
