@@ -1,6 +1,7 @@
 # Docs
-This is a description of all files uploaded into Docs directory for each sprint. 
-[Sprint1](##sprint1) | [Sprint2](##sprint2) 
+This is a description of all files uploaded into Docs directory for each sprint.
+
+[Sprint1](#sprint1) | [Sprint2](#sprint2) 
 
 ## Sprint2
 Individual Contributions: 
