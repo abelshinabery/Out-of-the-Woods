@@ -36,9 +36,8 @@ Status: Updating pages to reflect demo mockups. Currently working on Home and Re
 Next Steps: After finishing the React styles for layouts and arranging components, I will begin assisting with logic (button mapping, database querying, etc).
 
 **Rachel:** <br>
-Status: Still wrapping up Sprint 1 tasks: Aria/JS research document and user flow document
-Tabled HTML alt text task (not in board) since HTML has to be redone/ported to React in Sprint 2. <br>
-Next steps: Finish Sprint 1 tasks. Write JavaScript accessibility guidelines so we can code in needed functionality as we go, rather than after the fact. Get Expo emulator running on phone.
+Status: 6+ hours of troubleshooting but still cannot get foo-app working in Expo on local machine. Other Sprint tasks complete, with suggestions for code changes once can test.<br>
+Next steps: Continue trying to fix Expo access, or find alternative options to display app (maybe an IDE/Simulator). Once able to see the app, implement accessibility suggestions for BigButton and test. 
 
 **Abel:** <br>
 Status: Working on turning our HTML/CSS demo into a React Native Application <br>
