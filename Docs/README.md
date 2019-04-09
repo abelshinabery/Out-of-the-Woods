@@ -1,7 +1,29 @@
 # Docs
 This is a description of all files uploaded into Docs directory for each sprint. 
+[Sprint1](##sprint1) | [Sprint2](##sprint2) 
 
-## Sprint1 & Sprint2
+## Sprint2
+Individual Contributions: 
+
+**Rachel:**<br>
+[Big Button Accessibility Evaluation](Sprint2/ButtonAccess.md): Notes and suggestions for code changes to BigButton class to improve accessibility<br>
+Also created .gitignore for the project (in main repo level) to help us stay consistent with this more complex code base.
+
+**Talon:**<br>
+[Registration Screen](Sprint2/Registration_Screen.PNG): Updated Registration Screen to replicate the color scheme and user flow represented in our mockups. Slight adjustments still need to be made taking into consideration the Color Contrast Checks performed by Rachel.
+
+**Abel:**<br>
+[Settings Screen (React Native)](Sprint2/Settings_Screen.PNG): This is the settings page for our app, originally planned inside of AdobeXD, but realized inside of React Native, the technology our team is using to develop Out of the Woods. This screen is for changing defaults in the user account as well as logging out.
+
+**Serena:**<br>
+[Unblocking node](Sprint2/sprint2_unblockingnodes.docx): Made document recommending best course of action when demoing our project in class due to school's WIFI blocking nodes needed to run application.<br>
+[Initial Button](Sprint2/sprint2_initialbutton.png): Created the initial button with a basic count for number of times clicked. Then helped states code with this code and styles to match previous web demo.<br> 
+
+**Sarah:**<br>
+Doing thangs. 
+
+
+## Sprint1
 Individual Contributions:
 
 **Sarah:** <br>
@@ -23,7 +45,6 @@ Individual Contributions:
 <a href="Sprint1/OOTW_Cool_Tones.jpg" target="_blank">Cool Tones</a>: Color Scheme Mock-Up created for the Out of the Woods App to be less active to the eyes. Benefit: Blues tend to ease the mind. Drawback: Blue light is harmful to the eye.<br>
 <a href="Sprint1/OOTW_Forest_Tones.jpg" target="_blank">Forest Tones</a>: Color Scheme Mock-Up created to be more vibrant and active to the eyes. Benefit: This color palette is representative of strength. Drawback: Not enough contrast between colors for accessibility.
 **Mock-Ups are a Culmination of Research**: Color & Design Theory Research<br>
-<a href="Sprint2/Registration_Screen.PNG" target="_blank">Registration Screen</a>: Updated Registration Screen to replicate the color scheme and user flow represented in our mockups. Slight adjustments still need to be made taking into consideration the Color Contrast Checks performed by Rachel.<br>
 
 **Rachel:** <br>
 <a href="Sprint1/WAI mobile accessibility.pdf" target="_blank">WAI Mobile Accessibility Notes</a>: General Notes and research on WAI accessibility standards and mobile mapping. WAI standards are language and platform independent. These notes contain the accessibility features most pertinent to our app that we should code in and keep tracking as we go.<br>
@@ -32,5 +53,3 @@ Individual Contributions:
 <a href="Sprint1/UserStories.md" target="_blank">User Stories</a>: Four short user stories with examples of how they would use the app, its basic functions and pages. This document uses examples from our user stories spreadsheet and demo to show four use cases of the Out of the Woods app. It briefly describes different situations for which a user may want to use the app, and different cases for how they interact with the various alert, contacts, and location functions. It will be used as we build the app to ensure we're implementing the core functions our future users need, and clarify how the different pages interact with each other.<br>
 <a href="Sprint1/JavaScript Accessibility.pdf" target="_blank">JavaScript Accessibility</a>: Research document from Mozilla and other resources on mobile accessibility, JavaScript, and CSS (but primarily JavaScript). An important supplement to read after the WAI research document. This research will be very important as we code our app in React Native during the next sprint. There are notes on important features we need to be careful to implement for our app specifically, and details on how screen readers work with different web elements.<br> 
 <a href="Sprint1/ARIA Accessibility.pdf" target="_blank">ARIA Accessibility</a>: Research document from Mozilla and WAI resources on ARIA. ARIA provides ways to write accessible web applications, especially with JavaScript. However,this research shows that ARIA attributes may not be the best tools for our app. There are two reasons: (1) many features that ARIA enabled have since been implemented in HTML5, and (2) ARIA is still not fully optimized for mobile applications. We may still pull some individual tools from this research as we code the app in JS.<br> 
-<a href="Sprint2/ButtonAccess.md" target="_blank">BigButton Accessibility Evalution</a>: Notes and suggestions for code changes to BigButton class to improve accessibility<br>
-Also created .gitignore for the project (in main repo level) to help us stay consistent with this more complex code base.
