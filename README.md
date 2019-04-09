@@ -41,7 +41,7 @@ Next steps: Continue trying to fix Expo access, or find alternative options to d
 
 **Abel:** <br>
 Status: Working on adding functionality to the SOS button on the homepage.<br>
-Next Steps: Planning of building functions to send location info to contacts.
+Next Steps: Planning on building functions to send location info to contacts.
 
 **Sarah:**<br>
 Status: Doing things <br>
