@@ -3,7 +3,7 @@
 Not changing code directly at this point because Rachel is unable to test changes on my local machine: just notes for now, with some direct code replacement suggestions (to test!)
 
 ## References
-In addition to earlier notes, look at the React Native accessibility guides (bare, but useful):
+In addition to earlier notes, look at the React Native accessibility guides (bare, but useful):<br>
 <a href="https://facebook.github.io/react-native/docs/accessibility" target="_blank">React Native Accessibility Guide</a><br>
 <a href="https://code.fb.com/ios/making-react-native-apps-accessible/" target="_blank">Additional Blog Post with Examples</a><br>
 <a href="https://facebook.github.io/react-native/blog/2018/08/13/react-native-accessibility-updates" target="_blank">Notes on recent updates and iOS vs Android options</a><br>
