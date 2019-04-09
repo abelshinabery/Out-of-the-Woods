@@ -32,8 +32,8 @@ Status: Preparing to start coding in React Native <br>
 Next Steps: Set up individual development branch, finish determining user flow and parsing out individual work pages.
 
 **Talon:** <br>
-Status: Setting up React Native and my developement branch.<br>
-Next Steps: Determine user flow and code a page (TBD).
+Status: Updating pages to reflect demo mockups. Currently working on Home and Registration Pages.<br>
+Next Steps: After finishing the React styles for layouts and arranging components, I will begin assisting with logic (button mapping, database querying, etc).
 
 **Rachel:** <br>
 Status: Still wrapping up Sprint 1 tasks: Aria/JS research document and user flow document
