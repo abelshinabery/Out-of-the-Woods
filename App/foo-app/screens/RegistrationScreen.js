@@ -61,6 +61,6 @@ class RegistrationScreen extends Component {
       </KeyboardAvoidingView>
     );
   }
-};
+}
 
 export default RegistrationScreen;

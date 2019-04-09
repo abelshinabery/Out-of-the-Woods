@@ -49,6 +49,6 @@ class SettingsScreen extends Component {
         </View>
       );
   }
-};
+}
 
 export default SettingsScreen;

@@ -36,6 +36,7 @@ export default StyleSheet.create({
     height:50,
     backgroundColor: '#ffae',
   },
+  //  Settings Page
   settingsContainer:{
     flex: 1,
     backgroundColor: "#D8EFE7"
@@ -64,5 +65,35 @@ export default StyleSheet.create({
   },
   settingsListSeparator:{
       
-  }
+  },
+  // Home Page Settings
+  sosContainer: {
+      flex: 1, // makes the component flexible and it will be sized proportional to its flex value.
+      justifyContent: 'center', //centers circle vertically
+      alignItems: 'center', //centers circle horizontally
+    },
+    sosText:{
+        //alignSelf: 'center',
+        alignItems: 'center',
+        fontFamily: 'San Francisco',
+        fontSize: 30,
+    },
+    circle: {
+        //Abel's styling 
+        /*flex:-1,
+        flexDirection:'row',
+        height:200,
+        width:200,
+        borderRadius:100,
+        backgroundColor:'lightblue', 
+        justifyContent:'center',
+        alignSelf:'center' }}>*/
+      alignItems: 'center', //align SOS text horizontallt
+      justifyContent: 'center', //align SOS text vertically
+      width: 200, // if adj this, need to adj height & radius with same values
+      height: 200,
+      borderRadius: 200 / 2,
+      backgroundColor: 'white',
+      padding: 10,
+    }
 });
