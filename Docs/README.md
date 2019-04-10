@@ -7,7 +7,7 @@ This is a description of all files uploaded into Docs directory for each sprint.
 Individual Contributions: 
 
 **Rachel:**<br>
-[Big Button Accessibility Evaluation](Sprint2/ButtonAccess.md): Notes and suggestions for code changes to BigButton class to improve accessibility<br>
+[Big Button Accessibility Evaluation](Sprint2/ButtonAccess.md): Notes and suggestions for code changes to BigButton class to improve accessibility. This document is ready with specific suggestions that we can implement in code and test in the next sprint. Had planned to implement the code suggestions earlier but on hold until able to get app fully working in Expo locally<br>
 Also created .gitignore for the project (in main repo level) to help us stay consistent with this more complex code base.
 
 **Talon:**<br>
