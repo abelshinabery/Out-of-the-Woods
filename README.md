@@ -1,6 +1,7 @@
 # Out of the Woods
 [React Native Demo](Docs/3398_sprint2_demo.mov) <br>
-[Interactive Demo](https://xd.adobe.com/view/80b31619-94ac-4041-7646-a40ef9188a47-f682/?fullscreen)
+[Adobe XD Demo](https://xd.adobe.com/view/80b31619-94ac-4041-7646-a40ef9188a47-f682/?fullscreen)
+[Web App Demo](https://cs3398-s19-klingon-warriors.github.io/Out-of-the-Woods/)
 
 ## Vision Statement
 
@@ -21,16 +22,14 @@ This idea was inspired by the modern surge of online dating. From dating applica
 # Who we are:
 We are the Klingons, a group of undergraduate Computer Science students at Texas State University. In and throughout the semester we will use this repository to work on our project and software engineering principles as well as gain experience working in an agile environment.
 
-**Currently: Under construction, a.**
-
-[Demo](https://cs3398-s19-klingon-warriors.github.io/Out-of-the-Woods/)
+**Currently: Under construction**
 
 ### Status + Next Steps
 To see individual contributions and artifacts: [Click here](https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods/tree/shared/Docs)
 
 **Serena:** <br>
-Status: Preparing to start coding in React Native <br>
-Next Steps: Set up individual development branch, finish determining user flow and parsing out individual work pages.
+Status: Feeling good about React Native capabilities and development workflow - working on homepage. <br>
+Next Steps: Flesh out rest of needs for project completion - (Navigation component, backend solutions, etc) and cleaning up styling issues
 
 **Talon:** <br>
 Status: Updating pages to reflect demo mockups. Currently working on Home and Registration Pages.<br>
@@ -48,7 +47,7 @@ Next Steps: Planning on building functions to send location info to contacts.
 __Sprint 2__
 Status: Confirmed that the entire team is able to develop and run OOTW on their personal machines. Got Expo(the react native toolkit) running in visual studio on Windows 10 and made alot of readme docs for the team to follow on how to get set up with react native and expo. Added logo to homepage and implemented registration page that plays nicely with the keyboard when you input text.
 
-Next Steps: ADd simple react-native-timer-countdown component and implement the functionallity to set, disable and store timer features. 
+Next Steps: Add simple react-native-timer-countdown component and implement the functionallity to set, disable and store timer features. <br>
 __Sprint 1__
 Status: Created and pushed a skeleton-file structure of components, screens and navigation for team to pull (on shared branch as well as set branch to upstream for team to pull from and work on dev branches) [App](https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods/tree/master/App). Added README with how to set up development environment with __Expo__ and __React Native__.
 <br>
