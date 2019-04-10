@@ -7,8 +7,8 @@ This is a description of all files uploaded into Docs directory for each sprint.
 Individual Contributions: 
 
 **Rachel:**<br>
-[Big Button Accessibility Evaluation](Sprint2/ButtonAccess.md): Notes and suggestions for code changes to BigButton class to improve accessibility<br>
-Also created .gitignore for the project (in main repo level) to help us stay consistent with this more complex code base.
+[Big Button Accessibility Evaluation](Sprint2/ButtonAccess.md): Notes on current accessibility and suggestions for code changes to BigButton class to improve accessibility. This document is ready with specific suggestions that we can implement in code and test in the next sprint. Had planned to implement the code suggestions earlier but on hold until able to get app fully working in Expo locally <br>
+[.gitignore](../.gitignore): Created .gitignore for the whole project, implementing recommendations for React Native, Javascript, Expo, Mac OS, Windows, Linux, npm, and others. This will help us stay consistent with this more complex code base.<br>
 
 **Talon:**<br>
 [Registration Screen](Sprint2/Registration_Screen.PNG): Updated Registration Screen to replicate the color scheme and user flow represented in our mockups. Slight adjustments still need to be made taking into consideration the Color Contrast Checks performed by Rachel.
