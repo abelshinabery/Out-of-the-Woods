@@ -36,8 +36,8 @@ Status: Updating pages to reflect demo mockups. Currently working on Home and Re
 Next Steps: After finishing the React styles for layouts and arranging components, I will begin assisting with logic (button mapping, database querying, etc).
 
 **Rachel:** <br>
-Status: 6+ hours of troubleshooting but still cannot get foo-app working in Expo on local machine. Other Sprint tasks complete, with suggestions for code changes once can test.<br>
-Next steps: Continue trying to fix Expo access, or find alternative options to display app (maybe an IDE/Simulator). Once able to see the app, implement accessibility suggestions for BigButton and test. 
+Status: Created large gitignore, concrete code changes suggested for BigButton accessibility. Unfortunately, after 8+ hours of troubleshooting still cannot get foo-app working in Expo on local machine, which meant it was too risky to change source code directly. Will look for other software/simulator options next. Other Sprint tasks complete and have a good sense of what's next.<br>
+Next steps: Continue trying to fix Expo access, or find alternative options to display app (maybe an IDE/Simulator). Once able to see the app, implement accessibility suggestions for BigButton into the code and test all with mobile screen readers - those may not be implemented in just a simulator and may need to borrow test phones that have Expo working to test accessibility. Integrate what we've learned about mobile accessibility into the new features and pages we'll be adding during the last sprint.
 
 **Abel:** <br>
 Status: Working on adding functionality to the SOS button on the homepage.<br>
