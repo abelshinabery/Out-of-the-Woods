@@ -5,7 +5,7 @@
 
 ## Vision Statement
 
- _Out of the Woods_ , a personal safety mobile application that can help people avoid risky situations whilst being independent.
+_Out of the Woods_, a personal safety mobile application that can help people avoid risky situations whilst being independent.
 
 ## Project Description
 
@@ -14,7 +14,8 @@ _Goal:_ Creating a personal safety mobile application to alleviate stress and mi
 <img src="Docs/Sprint1/Group 4.png" height="500px">
 
 ## How it will work:
->  The application will send a notification to an emergency contact if the user : doesn’t arrive at their designated destination, thinks they are in danger, or just wants a friend to know their location. A user can preemptively set up an alert before entering an unsafe situation, or do it in the moment. Our goal is for users to achieve independence without sacrificing their own safety. Out of the Woods is gender inclusive and meant to improve quality of life for travelers, hikers, blind-daters, and families.
+The application will send a notification to an emergency contact if the user : doesn’t arrive at their designated destination, thinks they are in danger, or just wants a friend to know their location. A user can preemptively set up an alert before entering an unsafe situation, or do it in the moment. Our goal is for users to achieve independence without sacrificing their own safety. Out of the Woods is gender inclusive and meant to improve quality of life for travelers, hikers, blind-daters, and families.
+
 # Where idea started
 This idea was inspired by the modern surge of online dating. From dating applications such as Tinder or Bumble, to friendships blossoming from message boards such as Reddit, it is no longer a social stigma to say you’ve met someone “from the internet”. However, just because its a new norm of our generation doesn’t mean that meeting up with someone from online is 100% safe.
 
