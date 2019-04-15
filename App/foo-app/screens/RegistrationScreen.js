@@ -57,11 +57,13 @@ class RegistrationScreen extends Component {
                     />
                     <TextInput
                         placeholder="     Password"
+                        secureTextEntry={true}
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"
                     />
                     <TextInput
                         placeholder="     Confirm Password"
+                        secureTextEntry={true}
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"
                     />
