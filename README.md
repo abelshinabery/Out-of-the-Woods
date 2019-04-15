@@ -33,9 +33,9 @@ To see individual contributions and artifacts: [Click here](https://github.com/c
 Status: Feeling good about React Native capabilities and development workflow - working on homepage. <br>
 Next Steps: Flesh out rest of needs for project completion - (Navigation component, backend solutions, etc) and cleaning up styling issues
 
-_Sprint3 Progress_: 
-4/12: 2 hours
-4/15: 1 hour 
+_Sprint3 Progress_: <br>
+4/12: 2 hours <br>
+4/15: 1 hour <br>
 
 **Talon:** <br>
 Status: Updating pages to reflect demo mockups. Currently working on Home and Registration Pages.<br>
