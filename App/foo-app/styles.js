@@ -103,5 +103,20 @@ export default StyleSheet.create({
       borderRadius: 200 / 2,
       backgroundColor: 'white',
       padding: 10,
+    },
+    //Styles for form buttons:
+    formContainer: {
+    paddingTop: 60,
+    alignItems: 'center'
+    },
+    formButton: {
+    marginBottom: 30,
+    width: 260,
+    alignItems: 'center',
+    backgroundColor: '#39605e'
+    },
+    formButtonText: {
+    padding: 20,
+    color: 'white'
     }
 });
