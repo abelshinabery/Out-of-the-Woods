@@ -1,5 +1,29 @@
 # Docs
-This is a description of all files uploaded into Docs directory for each sprint. 
+This is a description of all files uploaded into Docs directory for each sprint.
+
+[Sprint1](#sprint1) | [Sprint2](#sprint2) 
+
+## Sprint2
+Individual Contributions: 
+
+**Rachel:**<br>
+[Big Button Accessibility Evaluation](Sprint2/ButtonAccess.md): Notes on current accessibility and suggestions for code changes to BigButton class to improve accessibility. This document is ready with specific suggestions that we can implement in code and test in the next sprint. Had planned to implement the code suggestions earlier but on hold until able to get app fully working in Expo locally <br>
+[.gitignore](../.gitignore): Created .gitignore for the whole project, implementing recommendations for React Native, Javascript, Expo, Mac OS, Windows, Linux, npm, and others. This will help us stay consistent with this more complex code base.<br>
+
+**Talon:**<br>
+[Registration Screen](Sprint2/Registration_Screen.PNG): Updated Registration Screen to replicate the color scheme and user flow represented in our mockups. Slight adjustments still need to be made taking into consideration the Color Contrast Checks performed by Rachel.
+
+**Abel:**<br>
+[Settings Screen (React Native)](Sprint2/Settings_Screen.PNG): This is the settings page for our app, originally planned inside of AdobeXD, but realized inside of React Native, the technology our team is using to develop Out of the Woods. This screen is for changing defaults in the user account as well as logging out.
+
+**Serena:**<br>
+[Unblocking node](Sprint2/sprint2_unblockingnodes.docx): Made document recommending best course of action when demoing our project in class due to school's WIFI blocking nodes needed to run application.<br>
+[Initial Button](Sprint2/sprint2_initialbutton.PNG): Created the initial button with a basic count for number of times clicked. Then helped states code with this code and styles to match previous web demo.<br> 
+Also: See code for Home Page: Helped adapt layout/style to match previous web demo.<br>
+
+**Sarah:**<br>
+Doing thangs. 
+
 
 ## Sprint1
 Individual Contributions:
@@ -17,6 +41,7 @@ Individual Contributions:
 <a href="Sprint1/TestGif1.gif" target="_blank">App Rough Draft Design with UX Software</a>: First test of possible layout for app. Built inside of Adobe XD using the cool tones color scheme to show how the UI might look like. <br>
 <a href="Sprint1/TestGif2.gif" target="_blank">App Rough Draft Design with UX Software</a>: Second text with another possible color scheme and UI that incorporated some suggestions from the team. <br>
 <a href="https://cs3398-s19-klingon-warriors.github.io/Out-of-the-Woods/">Implement color scheme and logo into HTML/CSS</a>: A small web demo that allows you to press the SOS button that would send your location to contacts. An adaptation of the second design draft, but with a new logo decided by the team. **Make sure when opening that you go into developer tools and select the mobile development option. The site is still funtional at desktop size, but it will not look correct. This is because it is a demo of a React Native application, which is purely on mobile phones.**<br>
+<a href="Sprint2/Settings_Screen.PNG">Settings Screen (React Native)</a> This is the settings page for our app, originally planned inside of AdobeXD, but realized inside of React Native, the technology our team is using to develop Out of the Woods. This screen is for changing defaults in the user account as well as logging out.<br>
 
 **Talon:** <br>
 <a href="Sprint1/OOTW_Cool_Tones.jpg" target="_blank">Cool Tones</a>: Color Scheme Mock-Up created for the Out of the Woods App to be less active to the eyes. Benefit: Blues tend to ease the mind. Drawback: Blue light is harmful to the eye.<br>
@@ -30,5 +55,3 @@ Individual Contributions:
 <a href="Sprint1/UserStories.md" target="_blank">User Stories</a>: Four short user stories with examples of how they would use the app, its basic functions and pages. This document uses examples from our user stories spreadsheet and demo to show four use cases of the Out of the Woods app. It briefly describes different situations for which a user may want to use the app, and different cases for how they interact with the various alert, contacts, and location functions. It will be used as we build the app to ensure we're implementing the core functions our future users need, and clarify how the different pages interact with each other.<br>
 <a href="Sprint1/JavaScript Accessibility.pdf" target="_blank">JavaScript Accessibility</a>: Research document from Mozilla and other resources on mobile accessibility, JavaScript, and CSS (but primarily JavaScript). An important supplement to read after the WAI research document. This research will be very important as we code our app in React Native during the next sprint. There are notes on important features we need to be careful to implement for our app specifically, and details on how screen readers work with different web elements.<br> 
 <a href="Sprint1/ARIA Accessibility.pdf" target="_blank">ARIA Accessibility</a>: Research document from Mozilla and WAI resources on ARIA. ARIA provides ways to write accessible web applications, especially with JavaScript. However,this research shows that ARIA attributes may not be the best tools for our app. There are two reasons: (1) many features that ARIA enabled have since been implemented in HTML5, and (2) ARIA is still not fully optimized for mobile applications. We may still pull some individual tools from this research as we code the app in JS.<br> 
-
-

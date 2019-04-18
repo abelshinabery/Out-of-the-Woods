@@ -6,6 +6,14 @@ export const IMAGE_HEIGHT = window.width / 2;
 export const IMAGE_HEIGHT_SMALL = window.width /7;
 
 export default StyleSheet.create({
+  animatedLogo: {
+    height: IMAGE_HEIGHT,
+    resizeMode: 'contain',
+    alignItems: 'flex-start',
+    marginBottom: 20,
+    padding: 20,
+    marginTop:20
+  },
   container: {
     backgroundColor: '#4c69a5',
     flex: 1,
@@ -25,7 +33,7 @@ export default StyleSheet.create({
     height: IMAGE_HEIGHT,
     resizeMode: 'contain',
     marginBottom: 20,
-    padding:10,
+    padding: 20,
     marginTop:20
   },
   register:{
@@ -39,7 +47,7 @@ export default StyleSheet.create({
   //  Settings Page
   settingsContainer:{
     flex: 1,
-    backgroundColor: "#D8EFE7"
+    backgroundColor: "#D8EFE7",
   },
   settingsList:{
     flex: 1

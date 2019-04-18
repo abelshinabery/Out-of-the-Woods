@@ -1,10 +1,10 @@
 {
   "devToolsPort": 19002,
   "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 36719,
-  "expoServerNgrokUrl": "https://rm-txc.serena-marie.foo-app.exp.direct",
-  "packagerNgrokUrl": "https://packager.rm-txc.serena-marie.foo-app.exp.direct",
-  "ngrokPid": 36737,
+  "packagerPort": 19003,
+  "packagerPid": 6192,
+  "expoServerNgrokUrl": "https://rm-txc.anonymous.foo-app.exp.direct",
+  "packagerNgrokUrl": "https://packager.rm-txc.anonymous.foo-app.exp.direct",
+  "ngrokPid": 6215,
   "webpackServerPort": null
 }
