@@ -10,16 +10,16 @@ import styles, { IMAGE_HEIGHT, IMAGE_HEIGHT_SMALL } from '../styles';
 import logo from '../assets/images/translogo.gif';
 
 class LoginScreen extends React.Component {
-  _onPressButton() {
-    Alert.alert('You logged in! Kind of')
-  }
 
   constructor(props) {
     super(props);
     
     this.imageHeight = new Animated.Value(IMAGE_HEIGHT);
   }
-  
+  loginAction = () =>{
+    Alert.alert("You've logged in! Kind of");
+    this.props.navigation.navigate('Home');
+  }
   componentWillMount () {
     this.keyboardWillShowSub = Keyboard.addListener('keyboardWillShow', this.keyboardWillShow);
     this.keyboardWillHideSub = Keyboard.addListener('keyboardWillHide', this.keyboardWillHide);
@@ -43,8 +43,8 @@ class LoginScreen extends React.Component {
       toValue: IMAGE_HEIGHT,
     }).start();
   };
-
   render() {
+    const {navigate} = this.props.navigation;
     return (
         <View style={styles.settingsContainer}>
             <View style={{flex: 3}}>
@@ -67,13 +67,15 @@ class LoginScreen extends React.Component {
                     />
                 </KeyboardAvoidingView>
             </View>
+
             <View style={styles.formContainer}>
-              <TouchableOpacity onPress={this._onPressButton}>
+              <TouchableOpacity onPress={this.loginAction}>
                 <View style={styles.formButton}>
                   <Text style={styles.formButtonText}>Login</Text>
                 </View>
               </TouchableOpacity>
             </View>
+            
         </View>
         
     );
