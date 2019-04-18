@@ -95,40 +95,89 @@
 
 
 
-import React, { Component } from "react";
-import { StyleSheet, Button, View } from "react-native";
-import TimerCountdown from "react-native-timer-countdown";
+// import React, { Component } from "react";
+// import { StyleSheet, Button, View } from "react-native";
+// import TimerCountdown from "react-native-timer-countdown";
 
-const A = () => (
-  <View style={styles.container}>
-    <TimerCountdown initialMilliseconds={1000 * 60} />
-  </View>
-);
-export default A;
+// const A = () => (
+//   <View style={styles.container}>
+//     <TimerCountdown initialMilliseconds={1000 * 60} />
+//   </View>
+// );
+// export default A;
 
-class B extends Component {
-  state = { isPressed: false };
+// class B extends Component {
+//   state = { isPressed: false };
+//   render() {
+//     return (
+//       <View styles={{ flex: 1 }}>
+//         <Button
+//           title={`${this.state.isPressed ? "Button Pressed" : "Button"}`}
+//           onPress={() => {
+//             this.setState({ isPressed: true });
+//           }}
+//         />
+//       </View>
+//     );
+//   }
+// }
+
+
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: "#fff",
+//     alignItems: "center",
+//     justifyContent: "center", 
+//     fontSize:200
+//   }
+// });
+
+import React, { Component } from 'react';
+import {
+  StyleSheet, View, TouchableOpacity, Text,
+} from 'react-native';
+import { Timer, FlipNumber } from 'react-native-flip-timer';
+
+export default class TimerScreen extends Component {
+  state = {
+    play: true,
+  }
+
+  play = () => {
+    this.setState(({ play }) => ({ play: !play }));
+  }
+
   render() {
+    const { play } = this.state;
     return (
-      <View styles={{ flex: 1 }}>
-        <Button
-          title={`${this.state.isPressed ? "Button Pressed" : "Button"}`}
-          onPress={() => {
-            this.setState({ isPressed: true });
-          }}
-        />
+      <View style={styles.container}>
+        <Timer time={500} play={play} />
+        <TouchableOpacity style={styles.button} onPress={this.play}>
+          <Text style={styles.text}>{play ? 'Pause' : 'Play'}</Text>
+        </TouchableOpacity>
       </View>
     );
   }
 }
 
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center", 
-    fontSize:200
-  }
+    backgroundColor: 'white',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  button: {
+    height: 40,
+    backgroundColor: '#333333',
+    width: 120,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  text: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#cccccc',
+  },
 });
