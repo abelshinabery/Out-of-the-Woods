@@ -37,6 +37,8 @@ _Sprint3 Progress_: <br>
 4/12: 2 hours <br>
 4/15: 2 hours <br>
 4/16: 2 hours <br>
+4/17: 1 hour <br>
+4/18: 2 hours<br>
 
 **Talon:** <br>
 Status: Updating pages to reflect demo mockups. Currently working on Home and Registration Pages.<br>
