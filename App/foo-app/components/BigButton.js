@@ -43,9 +43,15 @@ class BigButton extends Component {
 
     
     
-    sendNotification () {
-      this.setState({text: 'Contacts notified'});
-      Alert.alert('Location sent. \n Latitude: ' + this.state.location.latitude + ' Longitude: ' + this.state.location.longitude, ' ', [{text: 'OK', onPress: this.setState({text: 'SOS'})}]);
+    async sendNotification () {
+        
+      let promise = new Promise((resolve, reject) => {
+            setTimeout(() => resolve(true), 2000) // resolve
+      });
+      var info = await promise;
+      
+      this.setState({text: 'Contacts notified'});  
+      Alert.alert('Location sent.  \n Latitude: ' + this.state.location.latitude + ' Longitude: ' + this.state.location.longitude, ' ', [{text: 'OK', onPress: this.setState({text: 'SOS'})}]);
     }
     
     render() {
