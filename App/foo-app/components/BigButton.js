@@ -47,7 +47,7 @@ class BigButton extends Component {
       
       while(this.state.location.latitude === null || this.state.location.longitude === null){
           let promise = new Promise((resolve, reject) => {
-                setTimeout(() => resolve(true), 1000) // resolve
+                setTimeout(() => resolve(true), 100) // resolve
           });
           var info = await promise;
       }
