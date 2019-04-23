@@ -14,8 +14,7 @@ class BigButton extends Component {
             }
         }
     }
-    
-    
+        
      
     onPress = () => {
         
