@@ -2,9 +2,15 @@
 import React, { Component } from 'react';
 import { View, TextInput, Image, Animated, Keyboard, KeyboardAvoidingView } from 'react-native';
 import styles, { IMAGE_HEIGHT, IMAGE_HEIGHT_SMALL } from '../styles';
-import logo from '../assets/images/translogo.gif';
+import logo from '../assets/images/2Xlogo.png';
 
 class RegistrationScreen extends Component {
+
+  // Remove white space at top of screen
+  static navigationOptions = {
+    header: null,
+  };
+
   constructor(props) {
     super(props);
 
@@ -38,13 +44,14 @@ class RegistrationScreen extends Component {
   render() {
     return (
         <View style={styles.settingsContainer}>
-            <View style={{flex: 3}}>
-            
+            <View style={{flex: 1}}>
+              
                 <KeyboardAvoidingView
                     style={styles.settingsContainer}
                     behavior="padding"
                 >
                     <Animated.Image source={logo} style={[styles.animatedLogo, { height: this.imageHeight }]} />
+          
                     <TextInput
                         placeholder="     Email"
                         style={styles.input}

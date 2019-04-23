@@ -29,7 +29,7 @@ class BigButton extends Component {
     
     render() {
         return ( 
-            <View style={styles.sosContainer}>
+            <View style={styles.buttonContainer}>
                 <TouchableOpacity onPress={this.onPress} style={styles.circle} >
                     <Text style={ styles.sosText}>{this.state.text}</Text>
                 </TouchableOpacity>

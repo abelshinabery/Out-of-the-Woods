@@ -7,9 +7,14 @@
 import * as React from 'react';
 import { Text, Alert, View, TextInput, Image, Animated, Keyboard, KeyboardAvoidingView, TouchableOpacity} from 'react-native';
 import styles, { IMAGE_HEIGHT, IMAGE_HEIGHT_SMALL } from '../styles';
-import logo from '../assets/images/translogo.gif';
+import logo from '../assets/images/2Xlogo.png';
 
 class LoginScreen extends React.Component {
+
+// Remove white space at top of screen
+  static navigationOptions = {
+    header: null,
+  };
 
   constructor(props) {
     super(props);

@@ -14,23 +14,32 @@ import BigButton from '../components/BigButton';
 import { WebBrowser } from 'expo';
 
 import { MonoText } from '../components/StyledText';
-import logo from '../assets/images/translogo.gif';
+import logo from '../assets/images/2Xlogo.png';
 import styles, { IMAGE_HEIGHT, IMAGE_HEIGHT_SMALL } from '../styles';
 
 
 export default class HomeScreen extends React.Component {
+
+  // Remove white space at top of screen
   static navigationOptions = {
     header: null,
   };
 
   render(){
     return(
+
       // Call SosButton class to display
         <View style={styles.settingsContainer}>
-        <View style={styles.logo}>
-            <Image source={logo} style={{flex:1, height: 150, width: 150 }} resizeMode="contain" />
-        </View>
-        <BigButton />
+          <View style={styles.logoHomeScreen}>
+            <Image source={logo} style={{width:'100%', }} resizeMode="contain" />
+          </View>
+          <View style={styles.settingsContainer}>
+            <View style ={styles.timerContainer}>
+              <Text>TIMER</Text>
+            </View>
+          
+          </View>
+          <BigButton />
         </View>
     );
   }

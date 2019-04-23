@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import { Text, View, ScrollView, Image } from 'react-native';
 import styles, { IMAGE_HEIGHT, IMAGE_HEIGHT_SMALL } from '../styles';
-import logo from '../assets/images/translogo.gif';
+import logo from '../assets/images/2Xlogo.png';
 
 class SettingsScreen extends Component {
+
+static navigationOptions = {
+    header: null,
+  };
 
   render() {
     /* Go ahead and delete ExpoConfigView and replace it with your
@@ -15,7 +19,7 @@ class SettingsScreen extends Component {
             <Image source={logo} style={{flex:1, height: undefined, width: undefined }} resizeMode="contain" />
           </View>
           
-          <View style={{flex: 3, backgroundColor:"#AECFC4", width: "95%", alignSelf: "center"}}>
+          <View style={{flex: 2, backgroundColor:"#F7F6EB", width: "95%", alignSelf: "center"}}>
             <ScrollView>
           
                     <View style={styles.settingsList}>

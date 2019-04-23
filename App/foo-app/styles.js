@@ -9,13 +9,12 @@ export default StyleSheet.create({
   animatedLogo: {
     height: IMAGE_HEIGHT,
     resizeMode: 'contain',
-    alignItems: 'flex-start',
-    marginBottom: 20,
-    padding: 20,
-    marginTop:20
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '100%',
   },
   container: {
-    backgroundColor: '#4c69a5',
+    backgroundColor: '#FCF2E5',
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
@@ -34,7 +33,15 @@ export default StyleSheet.create({
     resizeMode: 'contain',
     marginBottom: 20,
     padding: 20,
-    marginTop:20
+    marginTop:20,
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+  },
+  logoHomeScreen: {
+    height: IMAGE_HEIGHT,
+    resizeMode: 'contain',
+    alignItems: 'center',
+    justifyContent: 'flex-start',
   },
   register:{
     marginBottom:20,
@@ -47,7 +54,7 @@ export default StyleSheet.create({
   //  Settings Page
   settingsContainer:{
     flex: 1,
-    backgroundColor: "#D8EFE7",
+    backgroundColor: "#F7F6EB",
   },
   settingsList:{
     flex: 1
@@ -75,8 +82,16 @@ export default StyleSheet.create({
       
   },
   // Home Page Settings
+  homeScreenContainer: {
+      flex: 1,
+  },
   sosContainer: {
       flex: 1, // makes the component flexible and it will be sized proportional to its flex value.
+      justifyContent: 'center', //centers circle vertically
+      alignItems: 'center', //centers circle horizontally
+    },
+    buttonContainer: {
+      flex: 2, // makes the component flexible and it will be sized proportional to its flex value.
       justifyContent: 'center', //centers circle vertically
       alignItems: 'center', //centers circle horizontally
     },
@@ -118,5 +133,12 @@ export default StyleSheet.create({
     formButtonText: {
     padding: 20,
     color: 'white'
+    },
+    timerContainer: {
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: 'white',
+      height: 50,
+      width: '100%',
     }
 });
