@@ -16,7 +16,7 @@ static navigationOptions = {
         <View style={styles.settingsContainer}>
           
           <View style={{flex: 1}}>
-            <Image source={logo} style={{flex:1, height: undefined, width: undefined }} resizeMode="contain" />
+            <Image source={logo} style={[styles.animatedLogo]} resizeMode="contain" />
           </View>
           
           <View style={{flex: 2, backgroundColor:"#F7F6EB", width: "95%", alignSelf: "center"}}>

@@ -3,8 +3,8 @@
   "expoServerPort": null,
   "packagerPort": null,
   "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
+  "expoServerNgrokUrl": "https://rm-txc.tks49.foo-app.exp.direct",
+  "packagerNgrokUrl": "https://packager.rm-txc.tks49.foo-app.exp.direct",
+  "ngrokPid": 17748,
   "webpackServerPort": null
 }

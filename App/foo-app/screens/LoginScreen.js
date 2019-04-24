@@ -52,7 +52,7 @@ class LoginScreen extends React.Component {
     const {navigate} = this.props.navigation;
     return (
         <View style={styles.settingsContainer}>
-            <View style={{flex: 3}}>
+            <View style={{flex: 1}}>
                 <KeyboardAvoidingView
                     style={styles.settingsContainer}
                     behavior="padding"
@@ -60,12 +60,12 @@ class LoginScreen extends React.Component {
                     <Animated.Image source={logo} style={[styles.animatedLogo, { height: this.imageHeight }]} />
                     
                     <TextInput
-                        placeholder="     Username"
+                        placeholder="Username"
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"
                     />
                     <TextInput
-                        placeholder="     Password"
+                        placeholder="Password"
                         secureTextEntry={true}
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"

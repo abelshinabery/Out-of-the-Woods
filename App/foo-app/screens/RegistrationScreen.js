@@ -53,23 +53,23 @@ class RegistrationScreen extends Component {
                     <Animated.Image source={logo} style={[styles.animatedLogo, { height: this.imageHeight }]} />
           
                     <TextInput
-                        placeholder="     Email"
+                        placeholder="Email"
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"
                     />
                     <TextInput
-                        placeholder="     Username"
+                        placeholder="Username"
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"
                     />
                     <TextInput
-                        placeholder="     Password"
+                        placeholder="Password"
                         secureTextEntry={true}
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"
                     />
                     <TextInput
-                        placeholder="     Confirm Password"
+                        placeholder="Confirm Password"
                         secureTextEntry={true}
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"

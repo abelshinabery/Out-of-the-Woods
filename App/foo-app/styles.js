@@ -3,7 +3,7 @@ import { StyleSheet, Dimensions } from 'react-native';
 const window = Dimensions.get('window');
 
 export const IMAGE_HEIGHT = window.width / 2;
-export const IMAGE_HEIGHT_SMALL = window.width /7;
+export const IMAGE_HEIGHT_SMALL = window.width / 4;
 
 export default StyleSheet.create({
   animatedLogo: {
@@ -25,7 +25,7 @@ export default StyleSheet.create({
     marginHorizontal: 10,
     marginVertical: 5,
    // paddingVertical: 5,
-    // paddingHorizontal: 15,
+    paddingHorizontal: 15,
     width: window.width - 30,
   },
   logo: {
@@ -128,7 +128,7 @@ export default StyleSheet.create({
     marginBottom: 30,
     width: 260,
     alignItems: 'center',
-    backgroundColor: '#39605e'
+    backgroundColor: '#527657'
     },
     formButtonText: {
     padding: 20,

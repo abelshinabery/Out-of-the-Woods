@@ -31,7 +31,7 @@ export default class HomeScreen extends React.Component {
       // Call SosButton class to display
         <View style={styles.settingsContainer}>
           <View style={styles.logoHomeScreen}>
-            <Image source={logo} style={{width:'100%', }} resizeMode="contain" />
+            <Image source={logo} style={[styles.animatedLogo]} resizeMode="contain" />
           </View>
           <View style={styles.settingsContainer}>
             <View style ={styles.timerContainer}>
