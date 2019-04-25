@@ -11,14 +11,18 @@ class BigButton extends Component {
             location: {
                 longitude: null,
                 latitude: null
-            }
+            },
+            clicked: false
         }
     }
-    
-    
+        
      
     onPress = () => {
         
+        this.setState({
+         //text: 'SOS',
+         clicked: true,
+         })
         this.findCoordinates();
         if(this.state.text === 'SOS'){
             this.setState({text:'Tap once more to send notification'});
@@ -27,6 +31,7 @@ class BigButton extends Component {
             this.setState({text: 'Sending notification... '});
             this.sendNotification();
         }
+
     }
     
     findCoordinates = () => {
@@ -62,10 +67,12 @@ class BigButton extends Component {
     
     
     render() {
-        return ( 
-            <View style={styles.buttonContainer}>
-                <TouchableOpacity onPress={this.onPress} style={styles.circle} >
-                    <Text style={ styles.sosText}>{this.state.text}</Text>
+         return ( 
+            <View style={styles.sosContainer}>
+               <TouchableOpacity onPress={this.onPress} style={this.state.clicked 
+                                                        ? styles.firstClick
+                                                        : styles.circle} >
+                    <Text style={this.state.clicked ? styles.sosTextClick : styles.sosText}>{this.state.text}</Text>
                 </TouchableOpacity>
             </View>
             

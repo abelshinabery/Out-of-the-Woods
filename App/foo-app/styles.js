@@ -101,16 +101,14 @@ export default StyleSheet.create({
         fontFamily: 'San Francisco',
         fontSize: 30,
     },
+    sosTextClick:{
+        //alignSelf: 'center',
+        color: 'white',
+        alignItems: 'center',
+        fontFamily: 'San Francisco',
+        fontSize: 30,
+    },
     circle: {
-        //Abel's styling 
-        /*flex:-1,
-        flexDirection:'row',
-        height:200,
-        width:200,
-        borderRadius:100,
-        backgroundColor:'lightblue', 
-        justifyContent:'center',
-        alignSelf:'center' }}>*/
       alignItems: 'center', //align SOS text horizontallt
       justifyContent: 'center', //align SOS text vertically
       width: 200, // if adj this, need to adj height & radius with same values
@@ -140,5 +138,14 @@ export default StyleSheet.create({
       backgroundColor: 'white',
       height: 50,
       width: '100%',
+    },
+    firstClick:{
+      alignItems: 'center', //align SOS text horizontallt
+      justifyContent: 'center', //align SOS text vertically
+      width: 200, // if adj this, need to adj height & radius with same values
+      height: 200,
+      borderRadius: 200 / 2,
+      backgroundColor: '#39605e',
+      padding: 10,
     }
 });
