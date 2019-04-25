@@ -86,6 +86,13 @@ export default StyleSheet.create({
         fontFamily: 'San Francisco',
         fontSize: 30,
     },
+    sosTextClick:{
+        //alignSelf: 'center',
+        color: 'white',
+        alignItems: 'center',
+        fontFamily: 'San Francisco',
+        fontSize: 30,
+    },
     circle: {
         //Abel's styling 
         /*flex:-1,
@@ -118,5 +125,15 @@ export default StyleSheet.create({
     formButtonText: {
     padding: 20,
     color: 'white'
+    },
+    firstClick:{
+      // color: 'white', // this doesn't work
+      alignItems: 'center', //align SOS text horizontallt
+      justifyContent: 'center', //align SOS text vertically
+      width: 200, // if adj this, need to adj height & radius with same values
+      height: 200,
+      borderRadius: 200 / 2,
+      backgroundColor: '#2d461f',
+      padding: 10,
     }
 });
