@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import { View, Text, TouchableOpacity, Alert } from 'react-native';
 import styles from '../styles';
 import CountDown from 'react-native-countdown-component';
+
 class Timer extends Component {
     constructor() {
         super();
