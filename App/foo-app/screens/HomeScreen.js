@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 
 import BigButton from '../components/BigButton';
-
+import Timer from '../components/Timer';
 import { WebBrowser } from 'expo';
 
 import { MonoText } from '../components/StyledText';
@@ -35,7 +35,8 @@ export default class HomeScreen extends React.Component {
           </View>
           <View style={styles.settingsContainer}>
             <View style ={styles.timerContainer}>
-              <Text>TIMER</Text>
+              {/* <Text>TIMER</Text> */}
+              <Timer />
             </View>
           
           </View>

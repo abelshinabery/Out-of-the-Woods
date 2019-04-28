@@ -22,8 +22,7 @@ Individual Contributions:
 Also: See code for Home Page: Helped adapt layout/style to match previous web demo.<br>
 
 **Sarah:**<br>
-Doing thangs. 
-
+ Adding simple react-native-timer-countdown component and implementing the functionallity to set, disable and store timer features, currently on experimental-sarah branch. Added logo, registration blank template. 
 
 ## Sprint1
 Individual Contributions:
