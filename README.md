@@ -26,7 +26,7 @@ We are the Klingons, a group of undergraduate Computer Science students at Texas
 **Currently: Under construction**
 
 ### Status + Next Steps
-To see individual contributions and artifacts: [Click here](https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods/tree/shared/Docs)<br><br>
+To see individual contributions and artifacts: [Click here](https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods/Docs)<br><br>
 **Project Status:** Mobile app is implemented with React Native and running. Minimal features at the moment, but the structure is there and some functionality. We have the frames and design ready in the app to add or refine features. 
 
 **Serena:** <br>
@@ -41,6 +41,8 @@ _Sprint3 Progress_: <br>
 4/18: 2 hours <br>
 4/23: 1 hour  <br>
 4/24: 3 hours <br>
+4/25: 1 hour  <br>
+4/28: 4 hours <br>
 
 **Talon:** <br>
 Status: Updating pages to reflect demo mockups. Currently working on Home and Registration Pages.<br>
