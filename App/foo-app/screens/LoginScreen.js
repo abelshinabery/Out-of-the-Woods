@@ -1,11 +1,5 @@
-/*
- Note to self: 
- Tomorrow, add some kind of functionality that when
- "onPress" it loads the SOS page after alert?
-*/
-
 import * as React from 'react';
-import { Text, Alert, View, TextInput, Image, Animated, Keyboard, KeyboardAvoidingView, TouchableOpacity} from 'react-native';
+import { Text, Alert, View, TextInput, Image, Animated, Keyboard, KeyboardAvoidingView, TouchableOpacity, Button } from 'react-native';
 import styles, { IMAGE_HEIGHT, IMAGE_HEIGHT_SMALL } from '../styles';
 import logo from '../assets/images/2Xlogo.png';
 
@@ -80,7 +74,6 @@ class LoginScreen extends React.Component {
                 </View>
               </TouchableOpacity>
             </View>
-            
         </View>
         
     );
