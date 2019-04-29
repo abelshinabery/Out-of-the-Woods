@@ -1,6 +1,6 @@
 // i stole this from https://medium.freecodecamp.org/how-to-make-your-react-native-app-respond-gracefully-when-the-keyboard-pops-up-7442c1535580
 import React, { Component } from 'react';
-import { View, TextInput, Image, Animated, Keyboard, KeyboardAvoidingView } from 'react-native';
+import { View, TextInput, Image, Animated, Keyboard, KeyboardAvoidingView, TouchableOpacity, Text, Alert } from 'react-native';
 import styles, { IMAGE_HEIGHT, IMAGE_HEIGHT_SMALL } from '../styles';
 import logo from '../assets/images/2Xlogo.png';
 
@@ -16,7 +16,10 @@ class RegistrationScreen extends Component {
 
     this.imageHeight = new Animated.Value(IMAGE_HEIGHT);
   }
-
+  loginAction = () =>{
+    Alert.alert("Welcome!");
+    this.props.navigation.navigate('Home');
+  }
   componentWillMount () {
     this.keyboardWillShowSub = Keyboard.addListener('keyboardWillShow', this.keyboardWillShow);
     this.keyboardWillHideSub = Keyboard.addListener('keyboardWillHide', this.keyboardWillHide);
@@ -75,6 +78,13 @@ class RegistrationScreen extends Component {
                         placeholderTextColor="#3a3a3a"
                     />
                 </KeyboardAvoidingView>
+            </View>
+            <View style={styles.formContainer}>
+              <TouchableOpacity onPress={this.loginAction}>
+                <View style={styles.formButton}>
+                  <Text style={styles.formButtonText}>Register & Login In</Text>
+                </View>
+              </TouchableOpacity>
             </View>
         </View>
     );
