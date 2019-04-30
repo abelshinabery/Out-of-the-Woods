@@ -39,8 +39,12 @@ export default class HomeScreen extends React.Component {
             </View>
             <Timer />
             <View style={styles.timerButtonContainer}>
-              <View style={styles.timerButtons}><Text>START</Text></View>
-              <View style={styles.timerButtons}><Text>STOP</Text></View>
+                <TouchableOpacity style={styles.timerButtonOnPress}>
+                  <View style={styles.timerButtons}><Text>START</Text></View>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.timerButtonOnPress}>
+                <View style={styles.timerButtons}><Text>STOP</Text></View>
+                </TouchableOpacity>
             </View>
           </View>
           <BigButton />

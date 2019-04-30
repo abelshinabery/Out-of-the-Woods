@@ -145,6 +145,16 @@ export default StyleSheet.create({
       alignItems: 'center',
       justifyContent: 'center',
     },
+    timerButtonsOnPress: {
+      borderWidth: 1,
+      border: '#39605e',
+      borderRadius: 25,
+      backgroundColor: 'grey',
+      height: 40,
+      width: 100,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
     timerButtonContainer: {
       flex: 1,
       flexDirection: 'row',
