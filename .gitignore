@@ -13,7 +13,7 @@ __generated__
 .LSOverride
 
 # Node
-# node_modules # think about this one: may want to include for tracking
+node_modules # think about this one: may want to include for tracking
 # npm-debug.log # repeat of other
 # yarn-error.log # repeat of other
 
