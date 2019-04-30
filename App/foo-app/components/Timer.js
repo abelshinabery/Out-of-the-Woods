@@ -11,13 +11,14 @@ class Timer extends Component {
         super();
         this.state = {
             totalDuration: '',
+            text: 'Timer'
         };
     }
 
     render() {
         // console.log(this.state.totalDuration)
         return (
-            <View style={styles.timerContainer}>
+            <View style={styles.timerContainer} accessible ={true} accessibilityLabel="Timer" accessibilityHint="Set countdown timer for alert" accessibilityRole="frequentUpdates">
                 <CountDown
                     until={60 * 10 + 30}
                     size={20}

@@ -37,24 +37,24 @@ class SettingsScreen extends Component {
                   />
                 </View>
 
-                <Text style={styles.settingsListItemAttribute}>Home</Text>
-                <Text style={styles.settingsListItemAttribute}>Favorites</Text>
+                <Text style={styles.settingsListItemAttribute} accessible={true} accessibilityRole="text">Home</Text>
+                <Text style={styles.settingsListItemAttribute} accessible={true} accessibilityRole="text">Favorites</Text>
               </View>
 
 
               <View style={styles.settingsListItem}>
-                <Text style={styles.settingsListItemTitle}>Alerts</Text>
-                <Text style={styles.settingsListItemAttribute}>Default timer length</Text>
+                <Text style={styles.settingsListItemTitle} accessible={true} accessibilityRole="text">Alerts</Text>
+                <Text style={styles.settingsListItemAttribute} accessible={true} accessibilityRole="text">Default timer length</Text>
               </View>
 
               <View style={styles.settingsListItem}>
-                <Text style={styles.settingsListItemTitle}>Geolocation</Text>
-                <Text style={styles.settingsListItemAttribute}>Capture interval</Text>
+                <Text style={styles.settingsListItemTitle} accessible={true} accessibilityRole="text">Geolocation</Text>
+                <Text style={styles.settingsListItemAttribute} accessible={true} accessibilityRole="text">Capture interval</Text>
               </View>
 
               <View style={styles.settingsListItem}>
-                <Text style={styles.settingsListItemTitle}>Account</Text>
-                <Text style={styles.settingsListItemAttribute}>Log out</Text>
+                <Text style={styles.settingsListItemTitle} accessible={true} accessibilityRole="text">Account</Text>
+                <Text style={styles.settingsListItemAttribute} accessible={true} accessibilityRole="text">Log out</Text>
               </View>
 
             </View>
@@ -63,5 +63,5 @@ class SettingsScreen extends Component {
       </View>
     );
   }
-};
+}
 export default SettingsScreen;

@@ -18,6 +18,7 @@ class LoginScreen extends React.Component {
   loginAction = () =>{
     Alert.alert("You've logged in! Kind of");
     this.props.navigation.navigate('Home');
+   // accessibilityHint = "You are now logged in" ;
   }
   componentWillMount () {
     this.keyboardWillShowSub = Keyboard.addListener('keyboardWillShow', this.keyboardWillShow);
@@ -45,7 +46,8 @@ class LoginScreen extends React.Component {
   render() {
     const {navigate} = this.props.navigation;
     return (
-        <View style={styles.settingsContainer}>
+      <div>
+        <View style={styles.settingsContainer} >
             <View style={{flex: 1}}>
                 <KeyboardAvoidingView
                     style={styles.settingsContainer}
@@ -57,25 +59,26 @@ class LoginScreen extends React.Component {
                         placeholder="Username"
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"
+                        accessible={true}
                     />
                     <TextInput
                         placeholder="Password"
                         secureTextEntry={true}
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"
+                        accessible={true}
                     />
                 </KeyboardAvoidingView>
-            </View>
-
-            <View style={styles.formContainer}>
+              </View>
+            <View style={styles.formContainer} >
               <TouchableOpacity onPress={this.loginAction}>
-                <View style={styles.formButton}>
+                <View style={styles.formButton} accessible={true} accessibilityRole="button">
                   <Text style={styles.formButtonText}>Login</Text>
                 </View>
               </TouchableOpacity>
             </View>
         </View>
-        
+        </div>
     );
   }
 }

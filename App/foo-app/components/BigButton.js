@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { View, Text, TouchableOpacity, Alert} from 'react-native';
+import { View, Text, TouchableOpacity, Alert, Button} from 'react-native';
 import styles, { IMAGE_HEIGHT, IMAGE_HEIGHT_SMALL } from '../styles';
 import Communication from 'react-native-communications';
 
-class BigButton extends Component {
+class BigButton extends Button { // changed from Component
     constructor () {
         super();
         this.state = {
@@ -22,8 +22,10 @@ class BigButton extends Component {
         this.setState({
          //text: 'SOS',
          clicked: true,
+        // accessibilityStates = ['selected']
          })
         this.findCoordinates();
+       // accessibilityStates = ['selected'] ;
         if(this.state.text === 'SOS'){
             this.setState({text:'Tap once more to send notification'});
         }
@@ -68,8 +70,8 @@ class BigButton extends Component {
     
     render() {
          return ( 
-            <View style={styles.sosContainer}>
-               <TouchableOpacity onPress={this.onPress} style={this.state.clicked 
+            <View style={styles.sosContainer} accessible={true}>
+               <TouchableOpacity accessibilityRole="imagebutton" accessibilityLabel="SOS button" accessibilityHint="Tap twice to send SOS message" onPress={this.onPress} style={this.state.clicked 
                                                         ? styles.firstClick
                                                         : styles.circle} >
                     <Text style={this.state.clicked ? styles.sosTextClick : styles.sosText}>{this.state.text}</Text>

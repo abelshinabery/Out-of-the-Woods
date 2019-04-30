@@ -59,29 +59,37 @@ class RegistrationScreen extends Component {
                         placeholder="Email"
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"
+                        accessible={true}
+                        accessibilityHint = "Enter your email address"
                     />
                     <TextInput
                         placeholder="Username"
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"
+                        accessible={true}
+                        accessibilityHint = "Create a username"
                     />
                     <TextInput
                         placeholder="Password"
                         secureTextEntry={true}
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"
+                        accessible={true}
+                        accessibilityHint = "Enter a password"
                     />
                     <TextInput
                         placeholder="Confirm Password"
                         secureTextEntry={true}
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"
+                        accessible={true}
+                        accessibilityHint = "Confirm your password"
                     />
                 </KeyboardAvoidingView>
             </View>
             <View style={styles.formContainer}>
               <TouchableOpacity onPress={this.loginAction}>
-                <View style={styles.formButton}>
+                <View style={styles.formButton} accessible={true} accessibilityRole="button" accessibilityHint="Click to register and log in">
                   <Text style={styles.formButtonText}>Register & Login In</Text>
                 </View>
               </TouchableOpacity>

@@ -20,7 +20,7 @@ class LogoutScreen extends React.Component {
     return(
       <View style = {styles.container}>
         <TouchableOpacity onPress={this.logoutAction}>
-          <View style={styles.formButton}>
+          <View style={styles.formButton} accessible={true} accessibilityRole="button" accessibilityHint="Click to log out">
             <Text style={styles.formButtonText}>Logout</Text>
           </View>
         </TouchableOpacity>
