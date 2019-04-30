@@ -12,6 +12,9 @@ import SettingsScreen from '../screens/SettingsScreen';
 import LoginScreen from '../screens/LoginScreen';
 import LogoutScreen from '../screens/LogoutScreen';
 
+import "regenerator-runtime";
+
+
 /* ------------ Home ---------------- */
 const HomeStack = createStackNavigator({
   Home: HomeScreen,
