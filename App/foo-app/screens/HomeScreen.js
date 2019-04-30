@@ -34,11 +34,14 @@ export default class HomeScreen extends React.Component {
             <Image source={logo} style={[styles.animatedLogo]} resizeMode="contain" />
           </View>
           <View style={styles.settingsContainer}>
-            <View style ={styles.timerContainer}>
-              {/* <Text>TIMER</Text> */}
-              <Timer />
+            <View style ={styles.timerHeading}>
+              <Text>TIMER</Text>
             </View>
-          
+            <Timer />
+            <View style={styles.timerButtonContainer}>
+              <View style={styles.timerButtons}><Text>START</Text></View>
+              <View style={styles.timerButtons}><Text>STOP</Text></View>
+            </View>
           </View>
           <BigButton />
         </View>

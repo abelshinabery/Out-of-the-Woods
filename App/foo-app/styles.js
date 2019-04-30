@@ -86,7 +86,7 @@ export default StyleSheet.create({
       flex: 1,
   },
   sosContainer: {
-      flex: 1, // makes the component flexible and it will be sized proportional to its flex value.
+      flex: 2, // makes the component flexible and it will be sized proportional to its flex value.
       justifyContent: 'center', //centers circle vertically
       alignItems: 'center', //centers circle horizontally
     },
@@ -109,6 +109,8 @@ export default StyleSheet.create({
         fontSize: 30,
     },
     circle: {
+      borderWidth: 1,
+      border: '#39605e',
       alignItems: 'center', //align SOS text horizontallt
       justifyContent: 'center', //align SOS text vertically
       width: 200, // if adj this, need to adj height & radius with same values
@@ -119,23 +121,48 @@ export default StyleSheet.create({
     },
     //Styles for form buttons:
     formContainer: {
-    paddingTop: 60,
-    alignItems: 'center'
+      paddingTop: 60,
+      alignItems: 'center'
     },
     formButton: {
-    marginBottom: 30,
-    width: 260,
-    alignItems: 'center',
-    backgroundColor: '#527657'
+      marginBottom: 30,
+      width: 260,
+      alignItems: 'center',
+      backgroundColor: '#527657',
+      borderRadius: 30,
     },
     formButtonText: {
-    padding: 20,
-    color: 'white'
+      padding: 20,
+      color: 'white'
     },
-    timerContainer: {
+    timerButtons: {
+      borderWidth: 1,
+      border: '#39605e',
+      borderRadius: 25,
+      backgroundColor: 'white',
+      height: 40,
+      width: 100,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+    timerButtonContainer: {
+      flex: 1,
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      paddingTop: 20,
+      paddingHorizontal: '20%',
+    },
+    timerHeading: {
       justifyContent: 'center',
       alignItems: 'center',
       backgroundColor: 'white',
+      height: 50,
+      width: '100%',
+    },
+    timerContainer: {
+      paddingTop: 20,
+      justifyContent: 'center',
+      alignItems: 'center',
       height: 50,
       width: '100%',
     },

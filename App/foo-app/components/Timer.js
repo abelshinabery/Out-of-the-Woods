@@ -7,12 +7,14 @@ import styles from '../styles';
 import CountDown from 'react-native-countdown-component';
 
 class Timer extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             totalDuration: '',
         };
     }
+
+
 
     render() {
         // console.log(this.state.totalDuration)
@@ -23,12 +25,14 @@ class Timer extends Component {
                     size={20}
                     onFinish={() => alert('Finished')}
                     onPress={() => alert('hello')}
-                    digitStyle={{ backgroundColor: '#FCF2E5' }}
+                    digitStyle={{ backgroundColor: 'clear' }}
                     digitTxtStyle={{ color: 'black' }}
+                    separatorStyle={{ color: 'black' }}
+                    showSeparator={true}
                     timeToShow={['H', 'M', 'S']}
-                    timeLabels={{ h: 'HH', m: 'MM', s: 'SS' }}
-                // if we dont want labels
-                // timeLabels={{h: null, m: null, s: null}} 
+                  //  timeLabels={{ h: 'HH', m: 'MM', s: 'SS' }}
+                //  if we dont want labels
+                    timeLabels={{h: null, m: null, s: null}} 
                 />
             </View>
         );
