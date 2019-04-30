@@ -44,12 +44,12 @@ class Timer extends Component {
 
       while(this.state.location.latitude === null || this.state.location.longitude === null){
           let promise = new Promise((resolve, reject) => {
-                setTimeout(() => resolve(true), 10) // resolve
+                setTimeout(() => resolve(true), 100) // resolve
           });
           var info = await promise;
       }
 
-      Alert.alert('Location sent.  \nLatitude: ' + this.address + '\nLongitude: ' + this.state.location.longitude, ' ', [{text: 'OK', onPress: this.setState({text: 'SOS'})}]);
+      Alert.alert('Location sent.  \nLatitude: ' + this.state.location.latitude + '\nLongitude: ' + this.state.location.longitude, ' ', [{text: 'OK', onPress: this.setState({text: 'SOS'})}]);
         
       Communication.text('9038028765', 'EMERGENCY! Please send help.\nLatitude: ' + this.state.location.latitude + '\nLongitude: ' + this.state.location.longitude);
     }
