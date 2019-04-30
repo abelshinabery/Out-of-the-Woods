@@ -23,15 +23,14 @@ This idea was inspired by the modern surge of online dating. From dating applica
 # Who we are:
 We are the Klingons, a group of undergraduate Computer Science students at Texas State University. In and throughout the semester we will use this repository to work on our project and software engineering principles as well as gain experience working in an agile environment.
 
-**Currently: Under construction**
+### Status
+**Project Status:** <br>
+A minimal front-end application implemented and running with React Native. Features include a fixed-timer, a SOS button that will send your longitutde & latitude coordinates to a fixed phone number, a settings form, and the look-and-feel of logging in. 
 
-### Status + Next Steps
-To see individual contributions and artifacts: [Click here](https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods/Docs)<br><br>
-**Project Status:** Mobile app is implemented with React Native and running. Minimal features at the moment, but the structure is there and some functionality. We have the frames and design ready in the app to add or refine features. 
+To see detailed individual contributions and artifacts: [Click here](https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods/Docs)<br>
 
 **Serena:** <br>
-Status: Feeling good about React Native capabilities and development workflow - working on homepage. <br>
-Next Steps: Flesh out rest of needs for project completion - (Navigation component, backend solutions, etc) and cleaning up styling issues
+Added login, logout screens, updated Home Page SOS button style changes, created dynamic navigation functionality, updated registration form to have protected password fields 
 
 _Sprint3 Progress_: <br>
 4/12: 2 hours <br>
