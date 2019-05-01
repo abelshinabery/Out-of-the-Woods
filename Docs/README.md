@@ -28,14 +28,14 @@ Individual Contributions:
   
     
 **Rachel**<br>
-* [FinalAccessibilityEval.md](./Sprint3/FinalAccessibilityEval.md)
+* [FinalAccessibilityEval.md](./Sprint3/FinalAccessibilityEval.md) <br>
 This document contains information about the current and future state of the app's accessibility. It includes a detailed evaluation and description of the functionality and user experience, based on the criteria made and the research collected during all previous sprints. Immediate next steps and future priorities are also described. This document is written for the entire Out of the Woods team to understand, not just the accessibility specialists. 
 _Please note: this evaluation references the code found in the **shared** branch, not the master branch._ Accessibility-enabled code is in the shared branch, based on code from the day before the demo. Newer code used for the demo is in master. We tried many many ways to merge, pull, and force merge conflicts to appear between the files on various branches, but we unable to merge them. At this point we will have to go line-by-line and, since so many of the accessibility features are small changes in-line, and since they affected nearly a dozen files, re-merging will have to be done at the start of sprint 4. As-is, we have great proof-of-concept for both the app with accessibility and the app with additional location/timer functions, as demoed. <br>
-* [Contrast Test Results](./Sprint3/Contrast)
+* [Contrast Test Results](./Sprint3/Contrast) <br>
 This folder contains screenshots of results from running the WebAIM Color Contrast Checker on the newest version of the app, with different background and foreground colors as used in our design. You can see that most of the tests pass, which is a grewat improvement over past versions. There are a couple failures, which can be fixed in the next sprint by modifying the color options in the styles.css file. <br>
-* [Location Permissions Images](./Sprint3/Location%20Permissions%20images)   
+* [Location Permissions Images](./Sprint3/Location%20Permissions%20images) <br>  
 Based on feedback from the demo, took screenshots of the process of enabling or disabling location permissions on an iOS device (emulated in Expo Snack). These four screenshots demonstrate the permissions pop-up that activates when a user tries to use a location-dependent function (such as SOS), and what happens if the user chooses Don't Allow. If the user does not allow location permissions to the Out of the Woods app and attempts to use a location function anyway, a pop-up explains the condition. <br>
-* [accessibility-enabled code in SHARED branch](https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods/tree/shared/App/foo-app)
+* [accessibility-enabled code in SHARED branch](https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods/tree/shared/App/foo-app) <br>
 See notes above about merging master and shared versions. This is an accessibility-enabledd version of the code (of the version the day before the demo). Added and implemented accessibility features in most major files, including but not limited to: 
    * LoginScreen.js
    * RegistrationScreen.js
@@ -44,12 +44,12 @@ See notes above about merging master and shared versions. This is an accessibili
    * Timer.js
    * TabBarIcon.js
    * BigButton.js
-   * AppNavigator.js
-<br>
-* [.gitignore](../.gitignore)
+   * AppNavigator.js <br>
+* [.gitignore](../.gitignore) <br>
 Activated node_modules ignore to fix an issue in pushing and pulling local-specific npm modules. <br>
-* [master code: package.json and imports](../App/foo-app/)
+* [master code: package.json and imports](../App/foo-app/) <br>
 On the master branch, added and fixed node modules and imports in package.json, AppNavigator.js,and App.js files. This was done to enable the newest timer and location functions we implemented at the end of the sprint (and demoed).<br>
+
 
 ## Sprint2
 Individual Contributions: 
