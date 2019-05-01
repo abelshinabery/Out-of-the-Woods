@@ -20,7 +20,13 @@ Individual Contributions:
     * Coded redirect to HomeScreen.js when "registered"
 * [AppNavigation.js](../App/foo-app/navigation/AppNavigator.js)
     * Updated navigation to allow for dynamic navigation - only certain pages displayed depnding on if user is logged in vs logged out
-
+    
+**Abel**<br>
+* [BigButton.js](../App/foo-app/components/BigButton.js)
+   * Added the geolocation function findCoordinates() to pull the user's current location
+   * Added the Communication object inside of the sendNotification() function to text contacts
+   
+   
 ## Sprint2
 Individual Contributions: 
 
