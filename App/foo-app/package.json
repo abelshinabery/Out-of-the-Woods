@@ -1,7 +1,7 @@
 {
-  "name": "foo-app@shared-4.29-847p",
+  "name": "226a-download",
   "version": "0.0.0",
-  "description": "cs3398-s19-klingon-warriors/Out-of-the-Woods @ Apr 29, 2019",
+  "description": "No description",
   "author": null,
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
@@ -11,9 +11,11 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
     "@expo/samples": "2.1.1",
     "moment": "^2.24.0",
+    "path": "0.12.7",
     "react-native-communications": "^2.2.1",
     "react-native-countdown-component": "^2.4.0",
     "react-native-extended-stylesheet": "0.11.1",
+    "react-native-paper": "2.2.8",
     "react-native-sms": "^1.9.0",
     "react-navigation": "3.9.1",
     "react-test-renderer": "16.8.6"

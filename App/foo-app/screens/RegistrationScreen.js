@@ -46,8 +46,8 @@ class RegistrationScreen extends Component {
 
   render() {
     return (
-        <View style={styles.settingsContainer}>
-            <View style={{flex: 1}}>
+        <View style={styles.settingsContainer} >
+            <View style={{flex: 1}} >
               
                 <KeyboardAvoidingView
                     style={styles.settingsContainer}
@@ -56,40 +56,37 @@ class RegistrationScreen extends Component {
                     <Animated.Image source={logo} style={[styles.animatedLogo, { height: this.imageHeight }]} />
           
                     <TextInput
+                    
                         placeholder="Email"
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"
                         accessible={true}
-                        accessibilityHint = "Enter your email address"
                     />
                     <TextInput
                         placeholder="Username"
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"
                         accessible={true}
-                        accessibilityHint = "Create a username"
                     />
                     <TextInput
                         placeholder="Password"
                         secureTextEntry={true}
-                        style={styles.input}
+                        style={styles.input}      
                         placeholderTextColor="#3a3a3a"
                         accessible={true}
-                        accessibilityHint = "Enter a password"
                     />
                     <TextInput
                         placeholder="Confirm Password"
                         secureTextEntry={true}
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"
-                        accessible={true}
-                        accessibilityHint = "Confirm your password"
+                       accessible={true}
                     />
                 </KeyboardAvoidingView>
             </View>
-            <View style={styles.formContainer}>
-              <TouchableOpacity onPress={this.loginAction}>
-                <View style={styles.formButton} accessible={true} accessibilityRole="button" accessibilityHint="Click to register and log in">
+            <View style={styles.formContainer} accessible={true}>
+              <TouchableOpacity onPress={this.loginAction} accessible={true}accessibilityRole="button" accessibilityLabel="Register and log in" accessibilityHint="creates and account and navigates to home page">
+                <View style={styles.formButton} >
                   <Text style={styles.formButtonText}>Register & Login In</Text>
                 </View>
               </TouchableOpacity>

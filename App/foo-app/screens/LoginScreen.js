@@ -3,22 +3,23 @@ import { Text, Alert, View, TextInput, Image, Animated, Keyboard, KeyboardAvoidi
 import styles, { IMAGE_HEIGHT, IMAGE_HEIGHT_SMALL } from '../styles';
 import logo from '../assets/images/2Xlogo.png';
 
-class LoginScreen extends React.Component {
-
-// Remove white space at top of screen
-  static navigationOptions = {
-    header: null,
-  };
+class LoginScreen extends React.Component{
 
   constructor(props) {
     super(props);
     
     this.imageHeight = new Animated.Value(IMAGE_HEIGHT);
+    this.keyboardHeight = new Animated.Value(0);
   }
+
+  // Remove white space at top of screen
+  static navigationOptions = {
+    header: null,
+  }
+
   loginAction = () =>{
     Alert.alert("You've logged in! Kind of");
     this.props.navigation.navigate('Home');
-   // accessibilityHint = "You are now logged in" ;
   }
   componentWillMount () {
     this.keyboardWillShowSub = Keyboard.addListener('keyboardWillShow', this.keyboardWillShow);
@@ -43,43 +44,41 @@ class LoginScreen extends React.Component {
       toValue: IMAGE_HEIGHT,
     }).start();
   };
+  
   render() {
     const {navigate} = this.props.navigation;
     return (
-      <div>
-        <View style={styles.settingsContainer} >
-            <View style={{flex: 1}}>
-                <KeyboardAvoidingView
+        <View style={styles.settingsContainer}>
+      <View style={{flex: 1}}>
+              <KeyboardAvoidingView
                     style={styles.settingsContainer}
                     behavior="padding"
-                >
-                    <Animated.Image source={logo} style={[styles.animatedLogo, { height: this.imageHeight }]} />
+                    >
+                
+                    <Animated.Image source={logo} style={styles.animatedLogo} />
                     
                     <TextInput
+                        accessible={true}
                         placeholder="Username"
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"
-                        accessible={true}
                     />
                     <TextInput
+                        accessible={true}
                         placeholder="Password"
                         secureTextEntry={true}
                         style={styles.input}
                         placeholderTextColor="#3a3a3a"
-                        accessible={true}
                     />
                 </KeyboardAvoidingView>
-              </View>
-            <View style={styles.formContainer} >
-              <TouchableOpacity onPress={this.loginAction}>
-                <View style={styles.formButton} accessible={true} accessibilityRole="button">
+              <TouchableOpacity onPress={this.loginAction}  accessible={true} accessibilityRole="button" accessibilityLabel="click to log in" accessibilityHint="logs in and navigates to home page">
+                <View style={styles.formButton}>
                   <Text style={styles.formButtonText}>Login</Text>
                 </View>
               </TouchableOpacity>
+            </View> 
             </View>
-        </View>
-        </div>
-    );
+                );
   }
 }
 

@@ -1,8 +1,32 @@
 # Docs
 This is a description of all files uploaded into Docs directory for each sprint.
 
-[Sprint1](#sprint1) | [Sprint2](#sprint2) 
+[Sprint1](#sprint1) | [Sprint2](#sprint2) | [Sprint3](#sprint3) 
 
+## Sprint3
+Individual Contributions: 
+
+**Serena:**<br>
+* [HomeScreen.js](../App/foo-app/screens/HomeScreen.js)
+    * Updated SOS button to have style changes on click (button color & text color)
+* [LoginScreen.js](../App/foo-app/screens/LoginScreen.js)
+    * Created LoginScreen.js
+    * Coded redirect to HomeScreen.js when "logged in"
+* [LogoutScreen.js](../App/foo-app/screens/LogoutScreen.js)
+    * Created LogoutScreen.js
+    * Coded redirect to LoginScreen.js when "logged out"
+* [RegistrationScreen.js](../App/foo-app/screens/RegistrationScreen.js)
+    * Updated form to from plain-text to protected password input
+    * Coded redirect to HomeScreen.js when "registered"
+* [AppNavigation.js](../App/foo-app/navigation/AppNavigator.js)
+    * Updated navigation to allow for dynamic navigation - only certain pages displayed depnding on if user is logged in vs logged out
+    
+**Abel**<br>
+* [BigButton.js](../App/foo-app/components/BigButton.js)
+   * Added the geolocation function findCoordinates() to pull the user's current location
+   * Added the Communication object inside of the sendNotification() function to text contacts
+   
+   
 ## Sprint2
 Individual Contributions: 
 

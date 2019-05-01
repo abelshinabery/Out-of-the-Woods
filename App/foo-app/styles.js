@@ -1,3 +1,4 @@
+
 import { StyleSheet, Dimensions } from 'react-native';
 const window = Dimensions.get('window');
 
@@ -23,7 +24,7 @@ export default StyleSheet.create({
     backgroundColor: '#fff',
     marginHorizontal: 10,
     marginVertical: 5,
-    // paddingVertical: 5,
+   // paddingVertical: 5,
     paddingHorizontal: 15,
     width: window.width - 30,
   },
@@ -32,7 +33,7 @@ export default StyleSheet.create({
     resizeMode: 'contain',
     marginBottom: 20,
     padding: 20,
-    marginTop: 20,
+    marginTop:20,
     alignItems: 'center',
     justifyContent: 'flex-start',
   },
@@ -42,107 +43,109 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'flex-start',
   },
-  register: {
-    marginBottom: 20,
-    width: window.width - 100,
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: 50,
+  register:{
+    marginBottom:20,
+    width:window.width -100,
+    alignItems:'center',
+    justifyContent:'center',
+    height:50,
     backgroundColor: '#ffae',
   },
   //  Settings Page
-  settingsContainer: {
+  settingsContainer:{
     flex: 1,
-    backgroundColor: '#F7F6EB',
+    backgroundColor: "#F7F6EB",
   },
-  settingsList: {
-    flex: 1,
+  settingsList:{
+    flex: 1
   },
-  settingsListItem: {
-    backgroundColor: 'white',
+  settingsListItem:{
+    backgroundColor: "white",
     marginBottom: 20,
     padding: 10,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 1 },
     shadowOpacity: 0.5,
-    shadowRadius: 4,
+    shadowRadius: 4,  
     elevation: 5,
   },
-  settingsListItemTitle: {
+  settingsListItemTitle:{
     marginLeft: 10,
-    fontSize: 20,
+    fontSize: 20
   },
-  settingsListItemAttribute: {
+  settingsListItemAttribute:{
     marginTop: 20,
     marginLeft: 50,
-    fontSize: 16,
+    fontSize: 16
   },
-  settingsListSeparator: {},
+  settingsListSeparator:{
+      
+  },
   // Home Page Settings
   homeScreenContainer: {
-    flex: 1,
+      flex: 1,
   },
   sosContainer: {
-    flex: 1, // makes the component flexible and it will be sized proportional to its flex value.
-    justifyContent: 'center', //centers circle vertically
-    alignItems: 'center', //centers circle horizontally
-  },
-  buttonContainer: {
-    flex: 2, // makes the component flexible and it will be sized proportional to its flex value.
-    justifyContent: 'center', //centers circle vertically
-    alignItems: 'center', //centers circle horizontally
-  },
-  sosText: {
-    //alignSelf: 'center',
-    alignItems: 'center',
-    fontFamily: 'San Francisco',
-    fontSize: 30,
-  },
-  sosTextClick: {
-    //alignSelf: 'center',
-    color: 'white',
-    alignItems: 'center',
-    fontFamily: 'San Francisco',
-    fontSize: 30,
-  },
-  circle: {
-    alignItems: 'center', //align SOS text horizontallt
-    justifyContent: 'center', //align SOS text vertically
-    width: 200, // if adj this, need to adj height & radius with same values
-    height: 200,
-    borderRadius: 200 / 2,
-    backgroundColor: 'white',
-    padding: 10,
-  },
-  //Styles for form buttons:
-  formContainer: {
+      flex: 1, // makes the component flexible and it will be sized proportional to its flex value.
+      justifyContent: 'center', //centers circle vertically
+      alignItems: 'center', //centers circle horizontally
+    },
+    buttonContainer: {
+      flex: 2, // makes the component flexible and it will be sized proportional to its flex value.
+      justifyContent: 'center', //centers circle vertically
+      alignItems: 'center', //centers circle horizontally
+    },
+    sosText:{
+        //alignSelf: 'center',
+        alignItems: 'center',
+        fontFamily: 'San Francisco',
+        fontSize: 30,
+    },
+    sosTextClick:{
+        //alignSelf: 'center',
+        color: 'white',
+        alignItems: 'center',
+        fontFamily: 'San Francisco',
+        fontSize: 30,
+    },
+    circle: {
+      alignItems: 'center', //align SOS text horizontallt
+      justifyContent: 'center', //align SOS text vertically
+      width: 200, // if adj this, need to adj height & radius with same values
+      height: 200,
+      borderRadius: 200 / 2,
+      backgroundColor: 'white',
+      padding: 10,
+    },
+    //Styles for form buttons:
+    formContainer: {
     paddingTop: 60,
-    alignItems: 'center',
-  },
-  formButton: {
+    alignItems: 'center'
+    },
+    formButton: {
     marginBottom: 30,
     width: 260,
     alignItems: 'center',
-    backgroundColor: '#527657',
-  },
-  formButtonText: {
+    backgroundColor: '#527657'
+    },
+    formButtonText: {
     padding: 20,
-    color: 'white',
-  },
-  timerContainer: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'white',
-    height: 50,
-    width: '100%',
-  },
-  firstClick: {
-    alignItems: 'center', //align SOS text horizontallt
-    justifyContent: 'center', //align SOS text vertically
-    width: 200, // if adj this, need to adj height & radius with same values
-    height: 200,
-    borderRadius: 200 / 2,
-    backgroundColor: '#39605e',
-    padding: 10,
-  },
+    color: 'white'
+    },
+    timerContainer: {
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: 'white',
+      height: 50,
+      width: '100%',
+    },
+    firstClick:{
+      alignItems: 'center', //align SOS text horizontallt
+      justifyContent: 'center', //align SOS text vertically
+      width: 200, // if adj this, need to adj height & radius with same values
+      height: 200,
+      borderRadius: 200 / 2,
+      backgroundColor: '#39605e',
+      padding: 10,
+    }
 });

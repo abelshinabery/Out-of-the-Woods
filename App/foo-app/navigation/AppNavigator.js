@@ -3,7 +3,7 @@ import React from 'react';
 import { Platform } from 'react-native';
 import { createAppContainer, createSwitchNavigator } from 'react-navigation';
 import { createStackNavigator, createBottomTabNavigator } from 'react-navigation';
-import { ActivityIndicator, AsyncStorage, StatusBar, View } from 'react-native';
+import { ActivityIndicator, AsyncStorage, StatusBar, View, TouchableOpacity } from 'react-native';
 
 import TabBarIcon from '../components/TabBarIcon';
 import HomeScreen from '../screens/HomeScreen';
@@ -12,17 +12,17 @@ import SettingsScreen from '../screens/SettingsScreen';
 import LoginScreen from '../screens/LoginScreen';
 import LogoutScreen from '../screens/LogoutScreen';
 
+import styles, { IMAGE_HEIGHT, IMAGE_HEIGHT_SMALL } from '../styles';
+
 /* ------------ Home ---------------- */
 const HomeStack = createStackNavigator({
   Home: HomeScreen,
 });
 HomeStack.navigationOptions = {
   tabBarLabel: 'Home',
- // accessibilityRole = "header",
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
-      accessibilityRole = "button"
       name={
         Platform.OS === 'ios'
           ? `ios-information-circle${focused ? '' : '-outline'}`
@@ -38,11 +38,9 @@ const LogoutStack = createStackNavigator({
 });
 LogoutStack.navigationOptions = {
   tabBarLabel: 'Logout',
- //   accessibilityRole = "header",
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
-            accessibilityRole = "button"
       name={Platform.OS === 'ios' ? 'ios-link' : 'md-link'}
     />
   ),
@@ -54,11 +52,11 @@ const LoginStack = createStackNavigator({
 });
 LoginStack.navigationOptions = {
   tabBarLabel: 'Login',
-  //  accessibilityRole = "header",
+  tabBarButtonComponent: TouchableOpacity,
   tabBarIcon: ({ focused }) => (
+ //   accessibilityState=['selected'],
     <TabBarIcon
       focused={focused}
-            accessibilityRole = "button"
       name={Platform.OS === 'ios' ? 'ios-link' : 'md-link'}
     />
   ),
@@ -70,11 +68,9 @@ const RegistrationStack = createStackNavigator({
 });
 RegistrationStack.navigationOptions = {
   tabBarLabel: 'Register',
-//    accessibilityRole = "header",
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
-            accessibilityRole = "button"
       name={Platform.OS === 'ios' ? 'ios-link' : 'md-link'}
     />
   ),
@@ -89,7 +85,6 @@ SettingsStack.navigationOptions = {
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
-      accessibilityRole = "button"
       name={Platform.OS === 'ios' ? 'ios-options' : 'md-options'}
     />
   ),
@@ -114,7 +109,7 @@ class AuthLoadingScreen extends React.Component {
   // Render any loading content that you like here
   render() {
     return (
-      <View  >
+      <View accessible={true}>
         <ActivityIndicator />
         <StatusBar barStyle="default" />
       </View>
@@ -135,4 +130,4 @@ export default createAppContainer(createSwitchNavigator(
   {
     initialRouteName: 'AuthLoading'
   }
-))
+));

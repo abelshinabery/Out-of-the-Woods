@@ -23,15 +23,14 @@ This idea was inspired by the modern surge of online dating. From dating applica
 # Who we are:
 We are the Klingons, a group of undergraduate Computer Science students at Texas State University. In and throughout the semester we will use this repository to work on our project and software engineering principles as well as gain experience working in an agile environment.
 
-**Currently: Under construction**
+### Status
+**Project Status:** <br>
+A minimal front-end application implemented and running with React Native. Features include a fixed-timer, a SOS button that will send your longitude & latitude coordinates to a saved phone number (emergency contact), a settings form mockup, and the look-and-feel of logging in. 
 
-### Status + Next Steps
-To see individual contributions and artifacts: [Click here](https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods/Docs)<br><br>
-**Project Status:** Mobile app is implemented with React Native and running. Minimal features at the moment, but the structure is there and some functionality. We have the frames and design ready in the app to add or refine features. 
+To see detailed individual contributions and artifacts: [Click here](https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods/Docs)<br>
 
 **Serena:** <br>
-Status: Feeling good about React Native capabilities and development workflow - working on homepage. <br>
-Next Steps: Flesh out rest of needs for project completion - (Navigation component, backend solutions, etc) and cleaning up styling issues
+Added login, logout screens, updated Home Page SOS button style changes, created dynamic navigation functionality, updated registration form to have protected password fields 
 
 _Sprint3 Progress_: <br>
 4/12: 2 hours <br>
@@ -53,8 +52,9 @@ Status: Created large gitignore, concrete code changes suggested for BigButton a
 Next steps: Continue trying to fix Expo access, or find alternative options to display app (maybe an IDE/Simulator). Once able to see the app, implement accessibility suggestions for BigButton into the code and test all with mobile screen readers - those may not be implemented in just a simulator and may need to borrow test phones that have Expo working to test accessibility. Integrate what we've learned about mobile accessibility into the new features and pages we'll be adding during the last sprint.
 
 **Abel:** <br>
-Status: Working on adding functionality to the SOS button on the homepage.<br>
-Next Steps: Planning on building functions to send location info to contacts.
+**Sprint 3**<br>
+Status: Working on creating a contacts page to select numbers to send location to<br>
+Next Steps: Finding a way to send the location programmatically rather than through the default message app
 
 **Sarah:**<br>
 __Sprint 2__

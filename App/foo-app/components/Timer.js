@@ -11,7 +11,6 @@ class Timer extends Component {
         super();
         this.state = {
             totalDuration: '',
-            text: 'Timer'
         };
     }
 
@@ -22,7 +21,7 @@ class Timer extends Component {
                 <CountDown
                     until={60 * 10 + 30}
                     size={20}
-                    onFinish={() => alert('Finished')}
+                    onFinish={() => alert('Finished') }
                     onPress={() => alert('hello')}
                     digitStyle={{ backgroundColor: '#FCF2E5' }}
                     digitTxtStyle={{ color: 'black' }}

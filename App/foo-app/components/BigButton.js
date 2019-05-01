@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, Alert, Button} from 'react-native';
 import styles, { IMAGE_HEIGHT, IMAGE_HEIGHT_SMALL } from '../styles';
 import Communication from 'react-native-communications';
 
-class BigButton extends Button { // changed from Component
+class BigButton extends Component { // changed from Component
     constructor () {
         super();
         this.state = {
@@ -13,10 +13,10 @@ class BigButton extends Button { // changed from Component
                 latitude: null
             },
             clicked: false
-        }
+        };
     }
         
-     
+      
     onPress = () => {
         
         this.setState({
@@ -70,8 +70,8 @@ class BigButton extends Button { // changed from Component
     
     render() {
          return ( 
-            <View style={styles.sosContainer} accessible={true}>
-               <TouchableOpacity accessibilityRole="imagebutton" accessibilityLabel="SOS button" accessibilityHint="Tap twice to send SOS message" onPress={this.onPress} style={this.state.clicked 
+            <View style={styles.sosContainer}>
+               <TouchableOpacity accessible={true} accessibilityRole="imagebutton" accessibilityLabel="SOS button" accessibilityHint="Tap twice to send SOS message" onPress={this.onPress} style={this.state.clicked 
                                                         ? styles.firstClick
                                                         : styles.circle} >
                     <Text style={this.state.clicked ? styles.sosTextClick : styles.sosText}>{this.state.text}</Text>
