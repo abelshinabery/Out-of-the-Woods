@@ -1,7 +1,6 @@
 # Out of the Woods App: Accessibility Status and Goals
-### End of Sprint 3
+## End of Sprint 3
 <br>
-___
 
 ## Component Types and Roles
 There has slowly been more support in React Native for built-in, universal accessibility options. Using the newest cross-platform accessibilityRole type (built into React Native) helped define component types, particularly the buttons. This has made the app more navigable for more users, on either mobile operating system. It is very important that in this sprint we changed our button components to extend known types so that we could use accessibilityRole, both because of the built-in accessibility support that provides, but more importantly because it's an important accessibility design rule to use commonly-known and recognized component types whenever possible. It is much more difficult for users who cannot get the full information from the app that a developer can (such as seeing the visual layout) to understand some new, custom object type that a developer has invented without an critical reason.<br>
