@@ -48,8 +48,7 @@ Status: Updating pages to reflect demo mockups. Currently working on Home and Re
 Next Steps: After finishing the React styles for layouts and arranging components, I will begin assisting with logic (button mapping, database querying, etc).
 
 **Rachel:** <br>
-Status: Created large gitignore, concrete code changes suggested for BigButton accessibility. Unfortunately, after 8+ hours of troubleshooting still cannot get foo-app working in Expo on local machine, which meant it was too risky to change source code directly. Will look for other software/simulator options next. Other Sprint tasks complete and have a good sense of what's next.<br>
-Next steps: Continue trying to fix Expo access, or find alternative options to display app (maybe an IDE/Simulator). Once able to see the app, implement accessibility suggestions for BigButton into the code and test all with mobile screen readers - those may not be implemented in just a simulator and may need to borrow test phones that have Expo working to test accessibility. Integrate what we've learned about mobile accessibility into the new features and pages we'll be adding during the last sprint.
+Status: Making great progress on accessibility! Have a prototype accessibility-enabled version in the shared branch: this was added to the code version of the day before the demo. Works on both iOS and Android. Unfortunately could not force a merge or pull after the demo that would allow merging this code with the very-latest code in master, with the added timer and location functionality. Need to work on merging these manually, but will require line-by-line comparisons for several files. (See more notes in Docs.) Basic accessibility is implemented, with some additional fixes and features needed, as noted in evaluation report and docs. Edited and added to many javascript files and additionally ran accessibility tests. See Docs for details.
 
 **Abel:** <br>
 **Sprint 3**<br>
