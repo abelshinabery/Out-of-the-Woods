@@ -22,7 +22,7 @@ Individual Contributions:
     * Updated navigation to allow for dynamic navigation - only certain pages displayed depnding on if user is logged in vs logged out
     
 **Abel**<br>
-* [HomeScreen.js](../App/foo-app/components/BigButton.js)
+* [BigButton.js](../App/foo-app/components/BigButton.js)
    * Added the geolocation function findCoordinates() to pull the user's current location
    * Added the Communication object inside of the sendNotification() function to text contacts
    
