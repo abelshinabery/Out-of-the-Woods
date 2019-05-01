@@ -52,8 +52,9 @@ Status: Created large gitignore, concrete code changes suggested for BigButton a
 Next steps: Continue trying to fix Expo access, or find alternative options to display app (maybe an IDE/Simulator). Once able to see the app, implement accessibility suggestions for BigButton into the code and test all with mobile screen readers - those may not be implemented in just a simulator and may need to borrow test phones that have Expo working to test accessibility. Integrate what we've learned about mobile accessibility into the new features and pages we'll be adding during the last sprint.
 
 **Abel:** <br>
-Status: Working on adding functionality to the SOS button on the homepage.<br>
-Next Steps: Planning on building functions to send location info to contacts.
+**Sprint 3**
+Status: Working on creating a contacts page to select numbers to send location to<br>
+Next Steps: Finding a way to send the location programmatically rather than through the default message app
 
 **Sarah:**<br>
 __Sprint 2__
