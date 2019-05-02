@@ -32,7 +32,7 @@ We are the Klingons, a group of undergraduate Computer Science students at Texas
 **Project Status:** <br>
 A minimal front-end application implemented and running with React Native. Features include a fixed-timer, a SOS button that will send your longitude & latitude coordinates to a saved phone number (emergency contact), a settings form mockup, and the look-and-feel of logging in. 
 
-To see detailed individual contributions and artifacts: [Click here](https://github.com/cs3398-s19-klingon-warriors/Out-of-the-Woods/Docs)<br>
+To see detailed individual contributions and artifacts: [Click here](/Docs)<br>
 
 **Serena:** <br>
 Added login, logout screens, updated Home Page SOS button style changes, created dynamic navigation functionality, updated registration form to have protected password fields 
