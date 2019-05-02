@@ -44,8 +44,8 @@ _Sprint3 Progress_: <br>
 4/28: 4 hours <br>
 
 **Talon:** <br>
-Status: Updating pages to reflect demo mockups. Currently working on Home and Registration Pages.<br>
-Next Steps: After finishing the React styles for layouts and arranging components, I will begin assisting with logic (button mapping, database querying, etc).
+After Sprint 3 Status: Working on creating the timer buttons to start and stop/reset.<br>
+Next Steps: Have our app use the latitude and longitude from your location to send an address linked to Google Maps.<br>
 
 **Rachel:** <br>
 Status: Created large gitignore, concrete code changes suggested for BigButton accessibility. Unfortunately, after 8+ hours of troubleshooting still cannot get foo-app working in Expo on local machine, which meant it was too risky to change source code directly. Will look for other software/simulator options next. Other Sprint tasks complete and have a good sense of what's next.<br>
