@@ -21,10 +21,27 @@ Individual Contributions:
 * [AppNavigation.js](../App/foo-app/navigation/AppNavigator.js)
     * Updated navigation to allow for dynamic navigation - only certain pages displayed depnding on if user is logged in vs logged out
     
-**Abel**<br>
+**Abel:**<br>
 * [BigButton.js](../App/foo-app/components/BigButton.js)
    * Added the geolocation function findCoordinates() to pull the user's current location
    * Added the Communication object inside of the sendNotification() function to text contacts
+
+**Talon:**<br>
+* [HomeScreen.js](../App/foo-app/screens/HomeScreen.js)
+    * Redesigned layout with new logo and colors. 
+    * Added Timer buttons.
+    * Created notification push when Timer depletes.
+* [styles.js](../App/foo-app/styles.js)
+    * Updated styles to reflect new color scheme. 
+    * Added containers for Timer buttons. 
+    * Changed flex values for better fit on various screens.
+    * Updated Login/Logout button styling.
+* [BigButton.js](../App/foo-app/components/BigButton.js)
+    * Changed the text for when the notification is pushed to a messaging app.
+* [New Logo](../App/foo-app/assets/images/2Xlogo.png)
+    * Created new streamlined logo.
+* [New Layout](../Docs/Sprint3/iPhoneX.png)
+    * Created general re-design for the main page. All other pages referenced these colors.
    
    
 ## Sprint2
