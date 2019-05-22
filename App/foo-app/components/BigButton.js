@@ -63,7 +63,7 @@ class BigButton extends Component { // changed from Component
       
       Alert.alert('Location sent.  \n Latitude: ' + this.state.location.latitude + ' Longitude: ' + this.state.location.longitude, ' ', [{text: 'OK', onPress: this.setState({text: 'SOS'})}]);
         
-      Communication.text('9038028765', 'Latitude: ' + this.state.location.latitude + ' Longitude: ' + this.state.location.longitude);
+      Communication.text('2146083340',  'https://www.google.com/maps/search/?api=1&query=' + this.state.location.latitude + ', ' + this.state.location.longitude);
     }
 
     
